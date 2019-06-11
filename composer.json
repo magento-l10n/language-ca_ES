@@ -1,6 +1,6 @@
 {
     "name": "community-engineering/language-ca_es",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "type": "magento2-language",
     "description": "ca_ES language package.",
     "license": [
