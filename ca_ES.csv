@@ -8,9 +8,28 @@ None,Cap
 "Please assign this item to a store view.","Si us plau, assigni aquest element a un vista de botiga."
 "You need more permissions to save this item.","Cal més permisos per guardar aquest element."
 "You need more permissions to delete this item.","Cal més permisos per eliminar aquest element."
+"You need more permissions to view this item.","Cal més permisos per veure aquest element."
+"Please specify at least one website or one store group.","Cal especificar almenys un lloc web o grup de botigues."
+"You need more permissions to set All Scopes to a Role.","Calen més permisos per assignar tots els àmbits a un rol."
+"Incorrect website ID: %1","ID de lloc web incorrecte: %1"
 "You need more permissions to access website ""%1"".","Permisos insuficients per accedir al lloc web ""%1""."
+"Incorrect store ID: %1","ID de botiga incorrecte: %1"
+"You need more permissions to save this setting.","Calen més permisos per desar aquesta configuració."
 "Role Scopes","Àmbits de Rol"
 Custom,Personalitzat
+"You don't have permissions to save this item in scope of current store view. Please, switch to allowed store view","No teniu permís per desar aquest element a l'actual àmbit de vista de botiga. Canvieu a una vista de botiga amb permís"
+"More permissions are needed to delete the ""%1"" item.","Calen més permisos per eliminar l'element ""%1""."
+"This entity needs to be assigned to a store view. Verify the entity assignment and try again.","Cal assignar aquesta entitat a una vista de botiga. Verifiqueu l'assignació i torneu-ho a provar."
+"Orders can only be completed in an active store. Verify the store and try again.","Les comandes només es poden completar en una botiga activa. Verifiqueu la botiga i torneu-ho a provar."
+"This item needs to be assigned to a store view. Assign item and try again.","Cal assignar aquest element a una vista de botiga. Assigneu-lo i torneu-ho a provar."
+"More permissions are needed to save this item.","Calen més permisos per desar aquest element."
+"More permissions are needed to delete this item.","Calen més permisos per eliminar aquest element."
+"More permissions are needed to view this item.","Calen més permisos per veure aquest element."
+"At least one website or store group needs to be selected. Select and try again.","Cal seleccionar com a mínim un lloc web o un grup de botigues. Seleccioneu-ho i torneu a provar."
+"More permissions are needed to set All Scopes to a Role.","Calen més permisos per assignar tots els àmbits a un rol."
+"The ""%1"" website ID is incorrect. Verify the website ID and try again.","L'ID del lloc web ""%1"" és incorrecte. Verifiqueu l'ID del lloc web i torneu-ho a provar."
+"The ""%1"" store ID is incorrect. Verify the store ID and try again.","L'ID de la botiga ""%1"" és incorrecte. Verifiqueu l'ID de la botiga i torneu-ho a provar."
+"More permissions are needed to save this setting.","Calen més permisos per desar aquesta configuració."
 "Read Details","Llegir detalls"
 "Mark as Read","Marca com a llegit"
 "Are you sure?",Segur?
@@ -274,12 +293,58 @@ Industry,Indústria
 "Office Supplies","Material d'oficina"
 "Pharma and Medical Devices","Dispositius farmacològics i mèdics"
 "Technology B2B","Tecnologia B2B"
+Done,Fet
+Retry,Reintentar
+"'Action Details - #' .","'Detalls - #' ."
+"%1 item(s) have been scheduled for update.""","%1 producte(s) s'ha programat per actualitzar."""
+"Bulk Actions Log","Registre d'accions massives"
+"Bulk uuid %bulkUuid not exist","No existeix l'uuid %bulkUuid"
+"Topic %1","Tema %1"
+"Something went wrong while processing the request.","Alguna cosa ha anat malament processant la petició."
+"Error processing %key element of input data","Error processant l'element %key de les dades introduïdes"
+"Sorry, something went wrong during product prices update. Please see log for details.","Ho sentim, alguna cosa ha anat malament en el procés d'actualització dels preus. Vegeu els detalls al registre."
+"%1 item(s) are currently being updated.","%1 producte(s) estant sent actualitzats."
+"Task ""%1"": ","Tasca ""%1"": "
+"%1 item(s) have been scheduled for update.","%1 producte(s) programat(s) per actualitzar."
+"%1 item(s) have been successfully updated.","%1 producte(s) actualitzat(s) correctament."
+"%1 item(s) failed to update","Ha fallat l'actualització de/d' %1 producte(s)"
+Details,Detalls
+"View Details","Veure detalls"
+Dismiss,Descartar
+"Pending, in queue...","Pendent, a la cua..."
+"%1 items selected for mass update","%1 productes seleccionats per actualitzar"
+", %1 successfully updated",", %1 actualitzat correctament"
+", %1 failed to update",", %1 ha fallat l'actualització"
+"Something went wrong.","Alguna cosa ha anat malament."
+"Action Log","Registre d'activitat"
+Report,Informe
+"Bulk Actions","Accions massives"
+"Action Logs","Registre d'activitats"
+"Days Saved in Log","Dies desats al registre"
+"Description of Operation","Descripció d'operació"
 Summary,Resum
+"Start Time","Hora d'inici"
+"Items to Retry","Elements per reintentar"
+"To retry, select the items and click “Retry”.","Per reintentar-ho, selecciona i clica ""Reintentar""."
+"Items That Can’t Be Updated.","Productes que no es poden actualitzar."
+Status,Estat
+"Meta Information","Informació Meta"
+"Dismiss All Completed Tasks","Descartar les tasques completades"
+"Action Details - #","Detalls - #"
+"Number of Records Affected","Nombre de registres afectats"
 "We can't find the role for the user you wanted.","No podem trobar el rol per l'usuari que volies."
+"Something went wrong while compiling a list of allowed resources. You can find out more in the exceptions log.","Alguna cosa ha anat malament mentre es compilava una llista de recursos habilitats. Més informació al registre d'excepcions."
+"The role wasn't found for the user. Verify the role and try again.","No s'ha trobat el rol per l'usuari. Verifiqueu-lo i torneu-ho a provar."
 "We can't process your order right now. Please try again later.","No podem processar la comanda ara. Si us plau, proveu-ho més tard."
 "This payment didn't work out because we can't find this order.","El pagament no ha funcionat per que no podem trobar aquesta comanda."
 "Something went wrong: the paid amount doesn't match the order amount. Please correct this and try again.","Alguna cosa no ha funcionat: el total del pagament no coincideix amb el total de la comanda. Si us plau, rectifiqueu-ho i proveu-ho de nou."
 "New Order Status","Nou estat de la comanda"
+options,opcions
+"Select all","Selecciona-ho tot"
+"Deselect all","Desselecciona-ho tot"
+"Please Select","Si us plau seleccioni"
+"%s of %s selected","%s de %s seleccionats"
+"B2B Features","Característiques B2B"
 "Invalid Form Key. Please refresh the page.","Clau de formulari invàlida. Si us plau, refresca la pàgina."
 "You entered an invalid Secret Key. Please refresh the page.","Has introduït una clau secreta invàlida. Si us plau, actualiza la pàgina."
 "Cache Storage Management","Gestió d'emmagatzematge de caché"
@@ -400,6 +465,26 @@ Forms,Formularis
 "CAPTCHA for ""Create user"" and ""Forgot password"" forms is always enabled if chosen.","CAPTCHA per als formularis ""Crear usuari"" i ""Contrasenya oblidada"" està sempre activat si s'escull."
 "Please enter the letters from the image","Introduïu les lletres de la imatge"
 "Please type the letters below","Introduïu les lletres si us plau"
+Root,Arrel
+Delete,Eliminar
+Save,Desar
+"Use All Available Attributes","Utilitzar tots els atributs disponibles"
+Name,Nom
+Visibility,Visibilitat
+Position,Posició
+"Add Subcategory","Afegir subcategoria"
+"Add Root Category","Afegir categoria arrel"
+Day,Dia
+Month,Mes
+Year,Any
+"<label class=""label""><span>from</span></label>","<label class=""label""><span>de</span></label>"
+"<label class=""label""><span>to</span></label>","<label class=""label""><span>a</span></label>"
+"WYSIWYG Editor","Editor WYSIWYG"
+"Add Product","Afegir producte"
+label,etiqueta
+"Product Attributes","Atributs de producte"
+"Add New Attribute","Afegir atribut"
+"Save Attribute","Desar atribut"
 "This is used internally. Make sure you don't use spaces or more than %1 symbols.","Això s'utilitza internament. Assegureu-vos que no utilitzeu espais ni més de %1 símbols."
 "Shop By","Compra per"
 "Shopping Options","Opcions de compra"
@@ -525,7 +610,6 @@ Remove,Eliminar
 edit,editar
 "Order Summary","Resum de la comanda"
 "View and Edit Cart","Veure i editar la cistella"
-"View Details","Veure detalls"
 "Field ","Camp "
 " is required."," és obligatori."
 "Provided Zip/Postal Code seems to be invalid.","Sembla que el codi postal no és correcte."
@@ -586,7 +670,6 @@ of,de/d'
 "New Terms and Conditions","Noves condicions d'ús"
 "Terms and Conditions Information","Informació de les condicions d'ús"
 "Condition Name","Nom de la condició"
-Status,Estat
 Enabled,Habilitada
 Disabled,Inhabilitada
 "Show Content as","Mostrar el contingut com"
@@ -650,8 +733,6 @@ Password:,Contrasenya:
 "Shipping Method","Mètode d'enviament"
 "Now Shopping by","Comprant per"
 "We cannot retrieve the payment method model object.","No es pot recuperar el model del mètode de pagament."
-Month,Mes
-Year,Any
 "We cannot retrieve the payment info model object.","No es pot recuperar el model d'informació de pagament."
 "Credit Card Type","Tipus de targeta de crèdit"
 "Credit Card Number","Número de la targeta de crèdit"
@@ -668,7 +749,6 @@ Year,Any
 "The authorize action is not available.","Autorització no disponible."
 "The capture action is not available.","Captura no disponible."
 "The refund action is not available.","Reemborsament no disponible."
-"Please Select","Si us plau seleccioni"
 "--Please Select--","--Si us plau seleccioni--"
 "Please enter a valid credit card type number.","Introduïu un número de targeta de crèdit vàlid si us plau."
 "Please enter a valid credit card number.","Introduïu un número de targeta de crèdit vàlid si us plau."
@@ -721,7 +801,6 @@ Ok,D'acord
 "Please wait...","Espera, si us plau..."
 "All ","Tot "
 more,més
-Save,Desar
 Translate,Traduir
 Submit,Enviar
 "Please enter {0} words or less.","Introduïu un màxim de {0} paraules si us plau."
@@ -751,3 +830,5 @@ Submit,Enviar
 "Please use only letters (a-z or A-Z), numbers (0-9) or underscore (_) in this field, and the first character should be a letter.","Utilitzeu només lletres (a-z o A-Z), nombres (0-9) o subratllat (_) en aquest camp, i el primer caràcter ha de ser una lletra si us plau."
 "Please use only letters (a-z or A-Z), numbers (0-9), spaces and ""#"" in this field.","Utilitzeu només lletres (a-z o A-Z), nombres (0-9), espais i ""#"" en aquest camp si us plau."
 "Please enter a valid phone number. For example (123) 456-7890 or 123-456-7890.","Introduïu un telèfon vàlid si us plau. Per exemple (123) 456-7890 o 123-456-7890."
+"Please enter a valid fax number (Ex: 123-456-7890).","Especifiqueu un número de fax vàlid (Ex: 123-456-7890)."
+"Please enter a valid email address (Ex: johndoe@domain.com).","Especifiqueu una adreça de mail vàlida (Ex: johndoe@domain.com)."
