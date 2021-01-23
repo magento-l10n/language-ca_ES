@@ -1028,6 +1028,15 @@ YY,AA
 "Requested bundle option product doesn't exist","L'opció sol·licitada per a aquest producte no existeix"
 "Requested option doesn't exist","L'opció sol·licitada no existeix"
 "We can't add this item to your shopping cart right now.","No es pot afegir aquest article a la cistella ara mateix."
+"Customize and Add to Cart","Personalitza i afegeix"
+"* Required Fields","* Camps obligatoris"
+"Your Customization",Personalització
+Availability,Disponibilitat
+"In stock","En estoc"
+"Out of stock","Sense estoc"
+Availability:,Disponibilitat:
+"Customize %1","Personalitza %1"
+"No options of this product are available.","Opcions no disponibles."
 "The bundle product doesn't exist. Review your request and try again.","El paquet de producte no existeix. Reviseu la sol·licitud i torneu-ho a provar."
 """option_id"" and ""parent_id"" values should be specified","S'han d'especificar els valors ""option_id"" i ""parent_id"""
 """sku"" value should be specified","S'ha d'especificar el valor ""sku"""
@@ -1146,8 +1155,6 @@ Preview,"Vista prèvia"
 "Conditions Combination","Condicions Combinació"
 "Product Attribute","Atribut de producte"
 "Please choose a condition to add.","Si us plau, escolliu una condició per afegir."
-"In stock","En estoc"
-"Out of stock","Sense estoc"
 "Add to Wish List","Afegir a la llista de desitjos"
 "Add to Compare","Afegir per Comparar"
 "Catalog Products List","Llista de Productes del Catàleg"
@@ -1399,7 +1406,6 @@ Manually,Manualment
 "Name is missing","Falta el nom"
 "Comment is missing","Falta el comentari"
 "Invalid email address","L'adreça de correu electrònic no és vàlida"
-"* Required Fields","* Camps obligatoris"
 "Write Us",Escriviu-nos
 "Jot us a note and we’ll get back to you as quickly as possible.","Escriviu-nos una nota i us respondrem tan aviat com sigui possible."
 "Phone Number","Número de telèfon"
