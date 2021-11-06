@@ -611,7 +611,6 @@ Minute,Minut
 "This is only a demo store. You can browse and place orders, but nothing will be processed.","Això només és una botiga de demostració. Podeu navegar i fer comandes, però no es processarà res."
 "Report an Issue","Informeu d'un problema"
 "Stores Configuration","Configuració de Botigues"
-"Please confirm scope switching. All data that hasn't been saved will be lost.","Si us plau, confirmeu el canvi d'abast. Tota la informació no gravada es perdrà."
 "Additional Cache Management","Gestió Addicional de Memòria Cau"
 "Flush Catalog Images Cache","Netejar Memòria Cau del Catàleg d'Imatges"
 "Pregenerated product images files","Fitxers d'imatges de producte pregenerats"
@@ -642,6 +641,7 @@ selected,seleccionat
 "The information in this tab has been changed.","La informació d'aquesta pestanya ha canviat."
 Loading...,Carregant...
 "We could not detect a size.","No hem pogut detectar una mida."
+"Please confirm scope switching. All data that hasn't been saved will be lost.","Si us plau, confirmeu el canvi d'abast. Tota la informació no gravada es perdrà."
 "Allow everything","Permet-ho tot"
 "Global Search","Cerca global"
 Marketing,Màrqueting
@@ -957,7 +957,6 @@ Preview,"Vista prèvia"
 Template,Plantilla
 "Products Grid Template","Plantilla de graella de productes"
 Conditions,Condicions
-"Invalid method: %1","Mètode no vàlid: %1"
 State/Province,Província
 "Zip/Postal Code","Codi Postal"
 "My Cart (1 item)","Cistella (1 producte)"
@@ -1005,6 +1004,7 @@ Checkout,Compra
 "Sorry, guest checkout is not available.","Ho sentim, cal ser usuari registrat per fer una comanda."
 "You must confirm your account. Please check your email for the confirmation link or <a href=""%1"">click here</a> for a new link.","S'ha de confirmar el compte. Reviseu el correu per l'enllaç de confirmació o <a href=""%1"">cliqueu aquí</a> per rebre un nou enllaç."
 "Load customer quote error","Error al carregar el pressupost del client"
+"Invalid method: %1","Mètode no vàlid: %1"
 "DB exception","Excepció de BD"
 "Print receipt","Imprimir rebut"
 "Apply Discount Code","Aplicar codi de descompte"
@@ -1657,6 +1657,7 @@ Shortcut,Drecera
 "Don't have a PayPal account? Simply enter your email address.","No teniu cap compte de PayPal? Simplement introduïu la vostra adreça de correu electrònic."
 "Skip Order Review Step","Saltar el pas de revisió de la comanda"
 "The installment feature is available only in these locales: en_MX, es_MX, en_BR, pt_BR.","La funció de l’instal·lació només està disponible en aquestes configuracions regionals: en_MX, es_MX, en_BR, pt_BR."
+"Welcome, %1!","Benvingut, %1!"
 "Persistence Lifetime (seconds)","Durada de la persistència (segons)"
 "Preview Image","Previsualitzar la imatge"
 "Show Reviews","Mostrar ressenyes"
@@ -1735,6 +1736,7 @@ Review,Revisar
 "You can reward up to %1 new reviews(s).","Podeu recompensar fins a 1% ressenyes noves."
 "We received your return request. You will be notified when your request is reviewed.","Hem rebut la vostra sol·licitud de devolució. Sereu notificat quan es revisi la vostra sol·licitud."
 "Order History","Historial de comandes"
+"You have placed no orders.","No has realitzat cap comanda."
 "Orders and Returns","Comandes i Devolucions"
 "Payment Review","Revisió de pagament"
 "Comment added","Comentari afegit"
