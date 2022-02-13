@@ -1134,6 +1134,7 @@ Manually,Manualment
 "When you sign in to your account, you will be able to:","Quan inicieu sessió al vostre compte, podreu:"
 "User with this email already exists in the system. Enter a different email address to continue. If you want to use your current account as an administrator account, please contact the seller.","L’usuari amb aquest correu electrònic ja existeix al sistema. Per continuar, introduïu una adreça de correu electrònic diferent. Si voleu utilitzar el vostre compte actual com a compte d’administrador, poseu-vos en contacte amb el venedor."
 "Design Theme","Tema de disseny"
+"Choose an Option...","Tria una opció..."
 "New Product Review","Revisió de nou producte"
 "Thanks for contacting us with your comments and questions. We'll respond to you very soon.","Gràcies per contactar amb nosaltres amb els seus comentaris i preguntes. Li respondrem molt aviat."
 "An error occurred while processing your form. Please try again later.","S'ha produït un error en processar el formulari. Si us plau, intenteu-ho més tard."
@@ -1586,7 +1587,9 @@ Addresses,Adreces
 subscribed,subscrit
 "not subscribed","no subscrit"
 "Order Status","Estat de la comanda"
+"My Downloadable Products","Els meus productes descarregables"
 "Add product preview files here.","Afegiu aquí els fitxers de previsualització del producte."
+"You have not purchased any downloadable products yet.","Encara no has comprat cap producte descarregable."
 "Preview Template","Plantilla de previsualització"
 "We can't delete email template data right now. Please review log and try again.","En aquest moment no podem eliminar les dades de la plantilla de correu electrònic. Reviseu el registre i torneu-ho a provar."
 "Email Preview","Vista prèvia de correu electrònic"
@@ -1852,9 +1855,12 @@ Account,Compte
 "Forgot your password?","Heu oblidat la constrasenya?"
 "We have received a request to change the following information associated with your account at %store_name: %changes.","Hem rebut una sol·licitud per canviar la informació següent associada amb el vostre compte a %store_name: %changes."
 "Password Lifetime (days)","Durada de la contrasenya (dies)"
+"Stored Payment Methods","Mètodes de pagament guardats"
 Preview,Previsualització
 "Preview is not available.","La previsualització no està disponible."
 description,descripció
+"Add All to Cart","Afegir tot a la cistella"
+"You have no items in your wish list.","No tens cap element a la teva llista de desitjos."
 "User Description","Descripció de l'usuari"
 "Quick Checkout","Compra ràpida"
 "Store alternative addresses","Desar adreces alternatives"
