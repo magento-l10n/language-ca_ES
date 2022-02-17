@@ -1,6 +1,7 @@
 All,Tot
 None,Cap
 "Allowed Scopes","Àmbits permesos"
+"More permissions are needed to delete the ""%1"" item.","Calen més permisos per eliminar l'element ""%1""."
 "You need more permissions to apply some of the rule updates.","Cal més permisos per aplicar algunes de les actualitzacions de les regles."
 "More permissions are needed to save this item.","Calen més permisos per desar aquest element."
 "You need more permissions to access website ""%1"".","Permisos insuficients per accedir al lloc web ""%1""."
@@ -48,6 +49,7 @@ notice,avís
 Close,Tanca
 "See All (","Veure tots ("
 " unread)"," sense llegir)"
+"System Messages","Missatges del sistema"
 "Show Toolbar","Mostra a la barra d'eines"
 "Show List","Mostra la llista"
 "Use HTTPS to Get Feed","Utilitzar HTTPS per obtenir el Feed"
@@ -903,6 +905,7 @@ label,etiqueta
 "Shopping Options","Opcions de compra"
 "Remove This Item","Treure aquest element"
 "Clear All","Neteja tot"
+"Items %1-%2 of %3","Articles %1-%2 de %3"
 "We don't recognize or support this file extension type.","No reconeixem o donem suport a aquest tipus d'extensió de fitxer."
 Adding...,Afegint...
 Added,Afegit
@@ -1066,6 +1069,7 @@ Remove,Eliminar
 edit,editar
 "Shipping Address","Adreça d'enviament"
 "New Address","Nova adreça"
+"Shipping Methods","Mètodes d'enviament"
 "Order Summary","Resum de la comanda"
 "Provided Zip/Postal Code seems to be invalid.","Sembla que el codi postal no és correcte."
 " Example: "," Exemple: "
@@ -1130,9 +1134,11 @@ Manually,Manualment
 "Enable Terms and Conditions","Habilitar les condicions d'ús"
 "Preview Quote Lifetime (minutes)","Temps de vida de la cistella (minuts) en mode de previsualització"
 "Privacy and Cookie Policy","Política de privadesa i cookies"
+Gender:,Gènere:
 "Thank you! We're reviewing your request and will contact you soon","Gràcies! Estem revisant la vostra sol·licitud i ens posarem en contacte amb vosaltres aviat"
 "When you sign in to your account, you will be able to:","Quan inicieu sessió al vostre compte, podreu:"
 "User with this email already exists in the system. Enter a different email address to continue. If you want to use your current account as an administrator account, please contact the seller.","L’usuari amb aquest correu electrònic ja existeix al sistema. Per continuar, introduïu una adreça de correu electrònic diferent. Si voleu utilitzar el vostre compte actual com a compte d’administrador, poseu-vos en contacte amb el venedor."
+Gender,Gènere
 "Design Theme","Tema de disseny"
 "Choose an Option...","Tria una opció..."
 "New Product Review","Revisió de nou producte"
@@ -1571,7 +1577,6 @@ Group,Grup
 "Confirmed email","Correu electrònic confirmat"
 "Account Created in","Compte creat el"
 "Tax VAT Number","Número d’IVA fiscal"
-Gender,Gènere
 "Billing Firstname","Nom de facturació"
 "Billing Lastname","Cognom de facturació"
 "Account Lock","Bloqueig de compte"
@@ -1613,6 +1618,7 @@ Short,Breu
 "Successful Messages Lifetime","Durada dels missatges correctes"
 "Failed Messages Lifetime","Durada dels missatges fallits"
 "New Messages Lifetime","Durada dels missatges nous"
+"Shipping & Handling","Enviament i manipulació"
 "Client reviewed","Client revisat"
 "Catalog prices have changed, and you may want to review the offer. Details about the changes are available in the History Log.","Els preus del catàleg han canviat i és possible que vulgueu revisar l’oferta. Els detalls sobre els canvis estan disponibles al registre de l'historial."
 "The discount for this quote has been removed because the buyer has reached the maximum number of attempts to request a discount. You may want to review the offer amount.","S'ha eliminat el descompte d'aquest pressupost perquè el comprador ha assolit el nombre màxim d'intents de sol·licitar un descompte. És possible que vulgueu revisar l’import de l’oferta."
@@ -1663,6 +1669,7 @@ Shortcut,Drecera
 "Welcome, %1!","Benvingut, %1!"
 "Persistence Lifetime (seconds)","Durada de la persistència (segons)"
 "Preview Image","Previsualitzar la imatge"
+"Shipping & Handling (%1)","Enviament i manipulació (%1)"
 "Show Reviews","Mostrar ressenyes"
 "Customers Reviews","Ressenyes de clients"
 "Reviews for %1","Ressenyes per %1"
@@ -1741,8 +1748,12 @@ Review,Revisar
 "Order History","Historial de comandes"
 "You have placed no orders.","No has realitzat cap comanda."
 "Orders and Returns","Comandes i Devolucions"
+"Please enter a tracking number.","Si us plau, introduïu un número de seguiment."
 "Payment Review","Revisió de pagament"
+"Shipping &amp; Handling","Enviament &amp; manipulació"
 "Comment added","Comentari afegit"
+"Shipped By","Enviat per"
+"Tracking Number","Número de seguiment"
 "Credit memo for your %store_name order","Factura d'abonament de la comanda a %store_name"
 "Thank you for your order from %store_name.","Gràcies per la comanda a %store_name."
 "You can check the status of your order by <a href=""%account_url"">logging into your account</a>.","Podeu revisar l'estat de la comanda <a href=""%account_url"">entrant al vostre compte</a>."
@@ -1828,6 +1839,7 @@ Synonyms,Sinònims
 Website,"Lloc web"
 "Are you sure you want to delete the selected synonym groups?","Esteu segur que voleu suprimir els grups de sinònims seleccionats?"
 "Delete items","Suprimeix els elements"
+"Tracking Number:","Número de seguiment:"
 "In Review","En revisió"
 "Signifyd automatically reviews your orders for fraud, telling you in seconds which orders to ship, and which to reject.
                     We back our approvals with 100% chargeback protection, reimbursing you the full order amount plus fees should you ever receive a fraudulent chargeback.
@@ -1859,6 +1871,7 @@ Account,Compte
 Preview,Previsualització
 "Preview is not available.","La previsualització no està disponible."
 description,descripció
+"You must login or register to add items to your wishlist.","Heu d'iniciar sessió o registrar-vos per afegir elements a la vostra llista de desitjos."
 "Add All to Cart","Afegir tot a la cistella"
 "You have no items in your wish list.","No tens cap element a la teva llista de desitjos."
 "User Description","Descripció de l'usuari"
