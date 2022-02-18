@@ -901,11 +901,15 @@ label,etiqueta
 "This is used internally. Make sure you don't use spaces or more than %1 symbols.","Això s'utilitza internament. Assegureu-vos que no utilitzeu espais ni més de %1 símbols."
 "Subscribe Date","Data de subscripció"
 "Subscribe to RSS Feed","Subscriviu-vos al canal RSS"
+"%1 items","%1 articles"
 "Shop By","Compra per"
 "Shopping Options","Opcions de compra"
 "Remove This Item","Treure aquest element"
 "Clear All","Neteja tot"
 "Items %1-%2 of %3","Articles %1-%2 de %3"
+"%1 Items","%1 Articles"
+"Set Ascending Direction","Fixar Direcció Ascendent"
+"Set Descending Direction","Fixar Direcció Descendent"
 "We don't recognize or support this file extension type.","No reconeixem o donem suport a aquest tipus d'extensió de fitxer."
 Adding...,Afegint...
 Added,Afegit
