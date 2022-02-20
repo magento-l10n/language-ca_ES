@@ -5,6 +5,7 @@ None,Cap
 "You need more permissions to apply some of the rule updates.","Cal més permisos per aplicar algunes de les actualitzacions de les regles."
 "More permissions are needed to save this item.","Calen més permisos per desar aquest element."
 "You need more permissions to access website ""%1"".","Permisos insuficients per accedir al lloc web ""%1""."
+"More permissions are needed to save this setting.","Calen més permisos per desar aquesta configuració."
 "Role Scopes","Àmbits de Rol"
 Custom,Personalitzat
 "Read Details","Llegir detalls"
@@ -96,6 +97,7 @@ Configure,Configura
 "Shopping cart management is disabled for this customer.","Gestió de la cistella no disponible per a aquest client."
 Customers,Clients
 "Shopping Cart",Cistella
+"An error occurred. For details, see the error log.","Hi ha hagut un error. Per obtenir més detalls, consulteu el registre d’errors."
 "You do not have access to this.","Accés no permès."
 "An error has occurred. See error log for details.","S'ha produït un error. Mireu el registre per veure'n els detalls."
 "You cannot configure a product.","No es pot configrar el producte."
@@ -126,6 +128,7 @@ Customers,Clients
 "%1 products require your attention.","%1 productes necessiten atenció."
 "Yes, for Specified Customer Groups","Si, per a grups de clients especificats"
 "Yes, for Everyone","Si, per a tothom"
+"The file is corrupt and can't be used.","L'arxiu està malmès i no es pot utilitzar."
 "Please upload the file in .csv format.","Si us plau, carregeu l'arxiu en format .csv."
 "%1 item(s) need your attention.","%1 article(s) necessita(en) atenció."
 "Apply Coupon Code","Aplica cupó"
@@ -272,6 +275,7 @@ Dismiss,Descartar
 ", %1 failed to update",", %1 ha fallat l'actualització"
 "Something went wrong.","Alguna cosa ha anat malament."
 "Action Log","Registre d'activitat"
+Report,Informe
 "Bulk Actions","Accions massives"
 "Days Saved in Log","Dies desats al registre"
 "Description of Operation","Descripció d'operació"
@@ -377,11 +381,16 @@ Environment,Entorn
 options,opcions
 "Select all","Selecciona-ho tot"
 "Deselect all","Desselecciona-ho tot"
+Page,Pàgina
+Next,Següent
 "Please Select","Si us plau seleccioni"
 "%s of %s selected","%s de %s seleccionats"
+"Search by keyword","Cerca per paraula clau"
+"This is a required field.","Aquest és un camp obligatori."
 "B2B Features","Característiques B2B"
 "Invalid Form Key. Please refresh the page.","Clau de formulari invàlida. Si us plau, refresca la pàgina."
 "You entered an invalid Secret Key. Please refresh the page.","Has introduït una clau secreta invàlida. Si us plau, actualiza la pàgina."
+"Invalid security or form key. Please refresh the page.","Clau de seguretat o de formulari invàlida. Si us plau, refresqueu la pàgina."
 "Cache Storage Management","Gestió d'emmagatzematge de caché"
 "Flush Magento Cache","Buidar la caché de Magento"
 "The cache storage may contain additional data. Are you sure that you want to flush it?","L’emmagatzematge de la memòria cau pot contenir dades addicionals. Esteu segur que voleu desfer-vos-en?"
@@ -566,6 +575,7 @@ System,Sistema
 "You saved the store.","Heu desat la vista de botiga."
 "Something went wrong while saving. Please review the error log.","Alguna cosa ha fallat en desar. Si us plau, reviseu el registre d’errors."
 "Authentication storage is incorrect.","L'emmagatzematge de l'autenticació no és correcte."
+Today,Avui
 "Last 24 Hours","Darreres 24 hores"
 "Last 7 Days","Darrers 7 dies"
 "Current Month","Mes actual"
@@ -603,7 +613,6 @@ password,contrasenya
 "About the calendar","Sobre el calendari"
 "Go Today","Ves a avui"
 Previous,Anterior
-Next,Següent
 WK,Setmana
 Time,Temps
 Hour,Hora
@@ -611,6 +620,7 @@ Minute,Minut
 "JavaScript may be disabled in your browser.","JavaScript pot estar desactivat al vostre navegador."
 "To use this website you must first enable JavaScript in your browser.","Per utilitzar aquest lloc web, primer heu d’habilitar JavaScript al navegador."
 "This is only a demo store. You can browse and place orders, but nothing will be processed.","Això només és una botiga de demostració. Podeu navegar i fer comandes, però no es processarà res."
+"Privacy Policy","Política de Privacitat"
 "Report an Issue","Informeu d'un problema"
 "Stores Configuration","Configuració de Botigues"
 "Additional Cache Management","Gestió Addicional de Memòria Cau"
@@ -642,8 +652,12 @@ selected,seleccionat
 "This tab contains invalid data. Please resolve this before saving.","Aquesta pestanya conté dades no vàlides. Si us plau, resoleu això abans de desar."
 "The information in this tab has been changed.","La informació d'aquesta pestanya ha canviat."
 Loading...,Carregant...
+Examples,Exemples
+"Previous Page","Pàgina anterior"
+"Next Page","Pàgina següent"
 "We could not detect a size.","No hem pogut detectar una mida."
 "Please confirm scope switching. All data that hasn't been saved will be lost.","Si us plau, confirmeu el canvi d'abast. Tota la informació no gravada es perdrà."
+"Warning message","Missatge d'advertència"
 "Allow everything","Permet-ho tot"
 "Global Search","Cerca global"
 Marketing,Màrqueting
@@ -673,6 +687,7 @@ Advanced,Avançat
 "Sales Representative","Representant de vendes"
 "Customer Support","Atenció al client"
 Developer,Desenvolupador
+"Parameter Value","Valor del paràmetre"
 "Template Settings","Configuració de la plantilla"
 "Allow Symlinks","Permetre Symlinks"
 "Minify Html","Minimitzar l’Html"
@@ -906,6 +921,7 @@ label,etiqueta
 "Shopping Options","Opcions de compra"
 "Remove This Item","Treure aquest element"
 "Clear All","Neteja tot"
+"We can't find products matching the selection.","No podem trobar productes que coincideixin amb la selecció."
 "Items %1-%2 of %3","Articles %1-%2 de %3"
 "%1 Items","%1 Articles"
 "Set Ascending Direction","Fixar Direcció Ascendent"
@@ -1144,6 +1160,16 @@ Gender:,Gènere:
 "User with this email already exists in the system. Enter a different email address to continue. If you want to use your current account as an administrator account, please contact the seller.","L’usuari amb aquest correu electrònic ja existeix al sistema. Per continuar, introduïu una adreça de correu electrònic diferent. Si voleu utilitzar el vostre compte actual com a compte d’administrador, poseu-vos en contacte amb el venedor."
 Gender,Gènere
 "Design Theme","Tema de disseny"
+"Maximum sender name length is 255. Please correct your settings.","La longitud màxima del nom del remitent és de 255. Corregiu la configuració."
+"Default scope","Àmbit per defecte"
+"Base currency","Moneda base"
+"Display default currency","Mostra la moneda predeterminada"
+"Always (during development)","Sempre (durant el desenvolupament)"
+"Only Once (version upgrade)","Només una vegada (actualització de la versió)"
+"Never (production)","Mai (producció)"
+"HTTP (unsecure)","HTTP (no segur)"
+"Yes (302 Found)","Sí (302 Trobat)"
+"Yes (301 Moved Permanently)","Sí (301 Mogut Permanentment)"
 "Choose an Option...","Tria una opció..."
 "New Product Review","Revisió de nou producte"
 "Thanks for contacting us with your comments and questions. We'll respond to you very soon.","Gràcies per contactar amb nosaltres amb els seus comentaris i preguntes. Li respondrem molt aviat."
@@ -1596,6 +1622,8 @@ Addresses,Adreces
 subscribed,subscrit
 "not subscribed","no subscrit"
 "Order Status","Estat de la comanda"
+"Base Currency","Moneda Base"
+"Default Display Currency","Moneda de visualització predeterminada"
 "My Downloadable Products","Els meus productes descarregables"
 "Add product preview files here.","Afegiu aquí els fitxers de previsualització del producte."
 "You have not purchased any downloadable products yet.","Encara no has comprat cap producte descarregable."
@@ -1638,9 +1666,14 @@ Short,Breu
     vida útil del pressupost, actualitzeu la seva data de caducitat."
 "Save and Resume","Desar i reprendre"
 Resume,Reprendre
+"Your subscription has been confirmed.","La seva subscripció ha estat confirmada."
+"The confirmation request has been sent.","S'ha enviat la sol·licitud de confirmació."
 "Newsletter Message Preview","Vista prèvia del missatge del butlletí"
 "Enter your email address","Introduïu l'adreça de correu electrònic"
 Subscribe,Subscriure
+"Newsletter subscription confirmation","Confirmació de subscripció al butlletí de notícies"
+"Thank you for subscribing to our newsletter.","Gràcies per subscriure't al nostre butlletí de notícies."
+"To begin receiving the newsletter, you must first confirm your subscription by clicking on the following link:","Per començar a rebre el butlletí, primer has de confirmar la teva subscripció fent clic en el següent enllaç:"
 Unsubscribe,"Anul·lar la subscripció"
 Subscribed,Subscrit
 Unsubscribed,"Subscripció anul·lada"
