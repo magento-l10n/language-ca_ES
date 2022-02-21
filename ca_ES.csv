@@ -1666,6 +1666,7 @@ Short,Breu
     vida útil del pressupost, actualitzeu la seva data de caducitat."
 "Save and Resume","Desar i reprendre"
 Resume,Reprendre
+"A confirmation request has been sent.","La sol·licitud de confirmació s'ha enviat."
 "Your subscription has been confirmed.","La seva subscripció ha estat confirmada."
 "The confirmation request has been sent.","S'ha enviat la sol·licitud de confirmació."
 "Newsletter Message Preview","Vista prèvia del missatge del butlletí"
@@ -1674,6 +1675,8 @@ Subscribe,Subscriure
 "Newsletter subscription confirmation","Confirmació de subscripció al butlletí de notícies"
 "Thank you for subscribing to our newsletter.","Gràcies per subscriure't al nostre butlletí de notícies."
 "To begin receiving the newsletter, you must first confirm your subscription by clicking on the following link:","Per començar a rebre el butlletí, primer has de confirmar la teva subscripció fent clic en el següent enllaç:"
+"Newsletter unsubscription success","Baixa del butlletí de notícies realitzada correctament"
+"You have been unsubscribed from the newsletter.","Us heu donat de baixa del butlletí de notícies."
 Unsubscribe,"Anul·lar la subscripció"
 Subscribed,Subscrit
 Unsubscribed,"Subscripció anul·lada"
