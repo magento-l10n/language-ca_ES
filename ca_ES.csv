@@ -917,6 +917,7 @@ label,etiqueta
 "Subscribe Date","Data de subscripció"
 "Subscribe to RSS Feed","Subscriviu-vos al canal RSS"
 "%1 items","%1 articles"
+"The product's required option(s) weren't entered. Make sure the options are entered and try again.","No s'han introduït totes les opcions obligatòries del producte. Assegureu-vos d'haver-les introduït i torneu-ho a provar."
 "Shop By","Compra per"
 "Shopping Options","Opcions de compra"
 "Remove This Item","Treure aquest element"
@@ -926,6 +927,7 @@ label,etiqueta
 "%1 Items","%1 Articles"
 "Set Ascending Direction","Fixar Direcció Ascendent"
 "Set Descending Direction","Fixar Direcció Descendent"
+"More Information","Més Informació"
 "We don't recognize or support this file extension type.","No reconeixem o donem suport a aquest tipus d'extensió de fitxer."
 Adding...,Afegint...
 Added,Afegit
@@ -1619,6 +1621,7 @@ Addresses,Adreces
 "Edit Account Information","Editar informació del compte"
 "Password forgotten","Contrasenya oblidada"
 "You are signed out","Heu tancat la sessió"
+"More information","Més Informació"
 subscribed,subscrit
 "not subscribed","no subscrit"
 "Order Status","Estat de la comanda"
