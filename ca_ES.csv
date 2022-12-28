@@ -384,6 +384,7 @@ options,opcions
 "Deselect all","Desselecciona-ho tot"
 Page,Pàgina
 Next,Següent
+Show,Mostra
 "Please Select","Si us plau seleccioni"
 "%s of %s selected","%s de %s seleccionats"
 "Search by keyword","Cerca per paraula clau"
@@ -935,6 +936,7 @@ Added,Afegit
 "Lifetime of products in Recently Viewed Widget","Durada dels productes al Widget ""Vist recentment"""
 "Lifetime of products in Recently Compared Widget","Durada dels productes al Widget ""Comparat recentment"""
 "Cache Lifetime (Seconds)","Durada de la memòria cau (segons)"
+"Meta Keywords","Meta Paraules clau"
 "Meta Description",Metadescripció
 "Add To Cart","Afegir a la cistella"
 "Preview Sale","Vista prèvia de venda"
@@ -1905,6 +1907,7 @@ Website,"Lloc web"
 "Theme Preview Image","Imatge de previsualització del tema"
 "Default welcome msg!","Missatge de benvinguda predeterminat!"
 "Copyright © 2013-present Magento, Inc. All rights reserved.","Copyright © 2013-present Magento, Inc. Tots els drets reservats."
+"Default Meta Keywords","Meta Paraules clau predeterminades"
 Menu,Menú
 Account,Compte
 "Enter your email address.  You will receive an email with a link to reset your password.","Introduïu l'adreça de correu electrònic. Rebreu un correu electrònic amb un enllaç per restablir la contrasenya."
