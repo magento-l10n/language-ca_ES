@@ -383,6 +383,7 @@ options,opcions
 "Select all","Selecciona-ho tot"
 "Deselect all","Desselecciona-ho tot"
 Page,Pàgina
+Previous,Anterior
 Next,Següent
 Show,Mostra
 "Please Select","Si us plau seleccioni"
@@ -614,7 +615,6 @@ password,contrasenya
 "Sign Out","Tancar la sessió"
 "About the calendar","Sobre el calendari"
 "Go Today","Ves a avui"
-Previous,Anterior
 WK,Setmana
 Time,Temps
 Hour,Hora
@@ -783,6 +783,7 @@ successful,correcte
 "Please correct the password.","Si us plau corregiu la contrasenya."
 "We can't find the backup file.","No trobem l'arxiu de còpies de seguretat."
 "We can't connect to the FTP right now.","No es pot conectar a l'FTP ara mateix."
+Database,"Base de dades"
 "We can't save the Cron expression.","No es pot guardar l'expressió de Cron."
 Frequency,Freqüència
 "Maintenance Mode","Mode de manteniment"
@@ -809,6 +810,7 @@ Position,Posició
 "-- None --","-- Cap --"
 Footer,"Peu de pàgina"
 Header,Capçalera
+Visibility,Visibilitat
 "All Segments","Tots els segments"
 "Customer Segment","Segment del client"
 "Allowed Credit Card Types","Tipus de targeta de crèdit permesos"
@@ -852,6 +854,8 @@ YY,AA
 "Refund amount is too large.","L’import de la devolució és massa gran."
 "Settlement amount is too large.","L’import de la liquidació és massa gran."
 "Cannot provide a billing address unless also providing a credit card.","No es pot proporcionar una adreça de facturació, tret que també proporcioneu una targeta de crèdit."
+"Public Key","Clau Pública"
+"Private Key","Clau Privada"
 "Skip Order Review","Saltar la revisió de la comanda"
 "Stored Card","Targeta emmagatzemada"
 "We can't place the order.","No es pot fer la comanda."
@@ -903,12 +907,12 @@ Forms,Formularis
 "CAPTCHA for ""Create user"" and ""Forgot password"" forms is always enabled if chosen.","CAPTCHA per als formularis ""Crear usuari"" i ""Contrasenya oblidada"" està sempre activat si s'escull."
 Root,Arrel
 "Use All Available Attributes","Utilitzar tots els atributs disponibles"
-Visibility,Visibilitat
 "Add Subcategory","Afegir subcategoria"
 "Add Root Category","Afegir categoria arrel"
 Day,Dia
 Month,Mes
 Year,Any
+[WEBSITE],"[PÀGINA WEB]"
 "WYSIWYG Editor","Editor WYSIWYG"
 "Add Product","Afegir producte"
 label,etiqueta
