@@ -870,6 +870,8 @@ Availability,Disponibilitat
 Availability:,Disponibilitat:
 "Customize %1","Personalitza %1"
 "No options of this product are available.","Opcions no disponibles."
+"Qty Invoiced","Quantitat facturada"
+"Qty Shipped","Quantitat enviada"
 """option_id"" and ""parent_id"" values should be specified","S'han d'especificar els valors ""option_id"" i ""parent_id"""
 """sku"" value should be specified","S'ha d'especificar el valor ""sku"""
 Always,Sempre
@@ -1162,6 +1164,8 @@ Gender:,Gènere:
 "When you sign in to your account, you will be able to:","Quan inicieu sessió al vostre compte, podreu:"
 "User with this email already exists in the system. Enter a different email address to continue. If you want to use your current account as an administrator account, please contact the seller.","L’usuari amb aquest correu electrònic ja existeix al sistema. Per continuar, introduïu una adreça de correu electrònic diferent. Si voleu utilitzar el vostre compte actual com a compte d’administrador, poseu-vos en contacte amb el venedor."
 Gender,Gènere
+"Order # %1","Comanda # %1"
+Date,Data
 "Design Theme","Tema de disseny"
 "Maximum sender name length is 255. Please correct your settings.","La longitud màxima del nom del remitent és de 255. Corregiu la configuració."
 "Default scope","Àmbit per defecte"
@@ -1641,6 +1645,7 @@ Pending,Pendent
 "Gift Card Lifetime","Durada de la Targeta Regal"
 "Lifetime (days)","Durada (dies)"
 Short,Breu
+Processing,Processant
 "Shipping Method","Mètode d'enviament"
 "Customer Token Lifetime (hours)","Durada del Token del client (hores)"
 "Admin Token Lifetime (hours)","Durada del Token d'Admin (hores)"
@@ -1771,6 +1776,7 @@ Review,Revisar
 "Please enter a review.","Si us plau, introduïu una ressenya."
 "You have submitted no reviews.","No heu enviat cap ressenya."
 "My Recent Reviews","Les meves ressenyes recents"
+"View All","Mostrar-ho tot"
 "Your Review","La vostra ressenya"
 "Back to My Reviews","Tornar a les meves ressenyes"
 "Ratings Review Summary","Resum de revisió de valoracions"
@@ -1793,10 +1799,12 @@ Review,Revisar
 "You can reward up to %1 new reviews(s).","Podeu recompensar fins a 1% ressenyes noves."
 "Page not found","Pàgina no trobada"
 "We received your return request. You will be notified when your request is reviewed.","Hem rebut la vostra sol·licitud de devolució. Sereu notificat quan es revisi la vostra sol·licitud."
+Invoices,Factures
 "Items Ordered","Articles demanats"
 "Last Ordered Items","Últims articles demanats"
 "Order History","Historial de comandes"
 "Order Information","Informació de la comanda"
+"Order Shipments","Enviaments de la comanda"
 "Orders and Returns","Comandes i Devolucions"
 "Please enter a tracking number.","Si us plau, introduïu un número de seguiment."
 Complete,Completa
@@ -1808,7 +1816,7 @@ Complete,Completa
 "You have placed no orders.","No has realitzat cap comanda."
 "Print Order","Imprimir la comanda"
 "About Your Order","Sobre la teva comanda"
-"View All","Mostrar-ho tot"
+"Shipment #%1","Enviament #%1"
 "Recently Ordered","Recentment demanat"
 "Credit memo for your %store_name order","Factura d'abonament de la comanda a %store_name"
 "Thank you for your order from %store_name.","Gràcies per la comanda a %store_name."
@@ -1895,6 +1903,8 @@ Synonyms,Sinònims
 Website,"Lloc web"
 "Are you sure you want to delete the selected synonym groups?","Esteu segur que voleu suprimir els grups de sinònims seleccionats?"
 "Delete items","Suprimeix els elements"
+"Print All Shipments","Imprimeix tots els enviaments"
+"Print Shipment","Imprimeix l'enviament"
 "Tracking Number:","Número de seguiment:"
 "In Review","En revisió"
 "Signifyd automatically reviews your orders for fraud, telling you in seconds which orders to ship, and which to reject.
@@ -1915,6 +1925,7 @@ Website,"Lloc web"
 "An error occurred during mass deletion of system reports. Please review log and try again.","S'ha produït un error durant l'eliminació massiva dels informes del sistema. Si us plau, reviseu el registre i torneu-ho a provar."
 "Update Product Preview Image","Actualitzar la imatge de previsualització del producte"
 "Theme Preview Image","Imatge de previsualització del tema"
+"%1 Item(s)","%1 Article(s)"
 "Default welcome msg!","Missatge de benvinguda predeterminat!"
 "Copyright © 2013-present Magento, Inc. All rights reserved.","Copyright © 2013-present Magento, Inc. Tots els drets reservats."
 "Default Meta Description","Meta Descripció per Defecte"
