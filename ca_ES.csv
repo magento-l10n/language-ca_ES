@@ -861,6 +861,8 @@ YY,AA
 "We can't add this item to your shopping cart right now.","No es pot afegir aquest article a la cistella ara mateix."
 "Default Title","Títol per defecte"
 Default,"Per defecte"
+Ordered,Demanat
+Shipped,Enviat
 "Customize and Add to Cart","Personalitza i afegeix"
 "* Required Fields","* Camps obligatoris"
 "Your Customization",Personalització
@@ -915,6 +917,7 @@ label,etiqueta
 "Save Attribute","Desar atribut"
 "This is used internally. Make sure you don't use spaces or more than %1 symbols.","Això s'utilitza internament. Assegureu-vos que no utilitzeu espais ni més de %1 símbols."
 "Default Value","Valor per defecte"
+"Close Window","Tanca la finestra"
 "Subscribe Date","Data de subscripció"
 "Subscribe to RSS Feed","Subscriviu-vos al canal RSS"
 "%1 items","%1 articles"
@@ -1798,6 +1801,8 @@ Review,Revisar
 "Submit a review now and earn %1 after the review is approved.","Envieu una ressenya ara i guanyeu %1 un cop sigui aprovada."
 "You can reward up to %1 new reviews(s).","Podeu recompensar fins a 1% ressenyes noves."
 "Page not found","Pàgina no trobada"
+"Ordered: ","Demanat: "
+"Track this shipment","Realitzar un seguiment d'aquest enviament"
 "We received your return request. You will be notified when your request is reviewed.","Hem rebut la vostra sol·licitud de devolució. Sereu notificat quan es revisi la vostra sol·licitud."
 Invoices,Factures
 "Items Ordered","Articles demanats"
@@ -1908,9 +1913,12 @@ Synonyms,Sinònims
 Website,"Lloc web"
 "Are you sure you want to delete the selected synonym groups?","Esteu segur que voleu suprimir els grups de sinònims seleccionats?"
 "Delete items","Suprimeix els elements"
+"Tracking Information","Informació de seguiment"
 "Print All Shipments","Imprimeix tots els enviaments"
+"Shipment #","Enviament #"
 "Print Shipment","Imprimeix l'enviament"
 "Tracking Number:","Número de seguiment:"
+"There is no tracking available for this shipment.","No hi ha cap seguiment disponible per a aquest enviament."
 "In Review","En revisió"
 "Signifyd automatically reviews your orders for fraud, telling you in seconds which orders to ship, and which to reject.
                     We back our approvals with 100% chargeback protection, reimbursing you the full order amount plus fees should you ever receive a fraudulent chargeback.
