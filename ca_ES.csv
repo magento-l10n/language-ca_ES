@@ -208,6 +208,7 @@ Uses,Utilitza
 "Redirect URL","Redirigir URL"
 "Suggested Term","Terme suggerit"
 Yes,Si
+Synonym,Sinònim
 "RPC call failed, connection timed out after %time_out.","Ha fallat la crida RPC, temps d'espera esgotat després de %time_out."
 "Message has been rejected: %1","Missatge rebutjat: %1"
 "Error while checking if topic is synchronous","Error mentre es comprovava si el tema és síncron"
@@ -216,6 +217,9 @@ Yes,Si
 "Cron settings can't be saved","Les configuracions del Cron no poden ser guardades"
 "There was an error save new configuration value.","N'hi ha hagut un error al guardar el valor de la nova configuració."
 "--Please Select--","--Si us plau, seleccioneu--"
+"Command was not found.","La comanda no s'ha trobat."
+"Not valid cipher method.","Mètode de xifrat no vàlid."
+"Encryption key can't be empty.","La clau de xifrat no pot ser buida."
 "These arguments can't be empty ""%1""","Aquests arguments no poden ser vuits ""%1"""
 "Cannot find predefined integration user!","No es pot trobar l'usuari d'integració predefinit!"
 "File is not ready yet.","El fitxer no està llest encara."
@@ -254,6 +258,7 @@ Industry,Indústria
 "Pet Goods","Productes per mascotes"
 "Pharma and Medical Devices","Dispositius farmacològics i mèdics"
 "Technology B2B","Tecnologia B2B"
+Other,Altres
 "Please select an industry.","Si us plau, seleccioneu una indústria."
 "Retry Synchronization","Reintentar sincronització"
 Done,Fet
@@ -1582,9 +1587,15 @@ Strong,Fort
 "To show VAT number on Storefront, set Show VAT Number on Storefront option to Yes.","Per mostrar el número d'IVA a la botiga, configureu l'opció Mostra el número d'IVA a la botiga a Sí."
 "Default Welcome Email","Correu electrònic de benvinguda predeterminat"
 "Default Welcome Email Without Password","Correu electrònic de benvinguda predeterminat sense contrasenya"
+"This email will be sent instead of the Default Welcome Email, if a customer was created without password. <br /><br />
+                        Email template chosen based on theme fallback when ""Default"" option is selected.","Aquest correu electrònic s'enviarà en lloc del Correu Electrònic de Benvinguda per Defecte, si un client es va crear sense paraula clau. <br /><br />
+                        Plantilla de correu electrònic seleccionada basada en l'alternativa (fallback) de temes quan s'ha seleccionat l'opció ""Per Defecte""."
 "Require Emails Confirmation","Requerir confirmació de correus electrònics"
 "Confirmation Link Email","Correu electrònic d’enllaç de confirmació"
 "Welcome Email","Email de benviguda"
+"This email will be sent instead of the Default Welcome Email, after account confirmation. <br /><br />
+                        Email template chosen based on theme fallback when ""Default"" option is selected.","Aquest correu electrònic s'enviarà en lloc del Correu Electrònic de Benvinguda per Defecte, després de la confirmació del compte. <br /><br />
+                        Plantilla de correu electrònic seleccionada basada en l'alternativa (fallback) de tema quan s'ha seleccionat l'opció ""Per Defecte""."
 "Generate Human-Friendly Customer ID","Genereu un identificador de client amigable per a les persones"
 "Password Options","Opcions de contrasenya"
 "Forgot Email Template","Plantilla de Correu electrònic oblidat"
@@ -2040,6 +2051,7 @@ Synonyms,Sinònims
 Website,"Lloc web"
 "Are you sure you want to delete the selected synonym groups?","Esteu segur que voleu suprimir els grups de sinònims seleccionats?"
 "Delete items","Suprimeix els elements"
+"Welcome, %name","Benvingut, %name"
 "Tracking Information","Informació de seguiment"
 "Print All Shipments","Imprimeix tots els enviaments"
 "Shipment #","Enviament #"
@@ -2065,11 +2077,13 @@ Website,"Lloc web"
 "An error occurred during mass deletion of system reports. Please review log and try again.","S'ha produït un error durant l'eliminació massiva dels informes del sistema. Si us plau, reviseu el registre i torneu-ho a provar."
 "Update Product Preview Image","Actualitzar la imatge de previsualització del producte"
 "Theme Preview Image","Imatge de previsualització del tema"
+welcome,benvingut
 "%1 Item(s)","%1 Article(s)"
 "Default welcome msg!","Missatge de benvinguda predeterminat!"
 "Copyright © 2013-present Magento, Inc. All rights reserved.","Copyright © 2013-present Magento, Inc. Tots els drets reservats."
 "Default Meta Description","Meta Descripció per Defecte"
 "Default Meta Keywords","Meta Paraules clau predeterminades"
+"Welcome Text","Text de Benvinguda"
 Menu,Menú
 Account,Compte
 "Enter your email address.  You will receive an email with a link to reset your password.","Introduïu l'adreça de correu electrònic. Rebreu un correu electrònic amb un enllaç per restablir la contrasenya."
