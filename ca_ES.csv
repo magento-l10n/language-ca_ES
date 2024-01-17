@@ -2,7 +2,14 @@ All,Tot
 None,Cap
 "Allowed Scopes","Àmbits permesos"
 "You need more permissions to apply some of the rule updates.","Cal més permisos per aplicar algunes de les actualitzacions de les regles."
+"Please assign this entity to a store view.","Si us plau, assigni aquesta entitat a una vista de botiga."
+"Please assign this item to a store view.","Si us plau, assigni aquest element a una vista de botiga."
+"You need more permissions to save this item.","Calen més permisos per guardar aquest element."
+"You need more permissions to delete this item.","Calen més permisos per eliminar aquest element."
+"You need more permissions to view this item.","Calen més permisos per veure aquest element."
+"Incorrect website ID: %1","ID de lloc web incorrecte: %1"
 "You need more permissions to access website ""%1"".","Permisos insuficients per accedir al lloc web ""%1""."
+"Incorrect store ID: %1","ID de botiga incorrecte: %1"
 "Role Scopes","Àmbits de Rol"
 Custom,Personalitzat
 "More permissions are needed to delete the ""%1"" item.","Calen més permisos per eliminar l'element ""%1""."
@@ -59,6 +66,7 @@ Severity,Gravetat
 "Date Added","Data en què s'ha afegit"
 Message,Missatge
 Actions,Accions
+"Close popup","Tanca finestra emergent"
 "You have viewed and resolved all recent system notices. Please refresh the web page to clear the notice alert.","S'han vist i resolt totes les notificacions de sistema recents. Si us plau, refresqueu la pàgina per netejar les alertes."
 "Manage Shopping Cart","Gestionar la cistella"
 "Create Order","Crear comanda"
@@ -94,10 +102,13 @@ Configure,Configura
 "You must buy at least %1 of these per purchase.","Mínim %1 per compra."
 "Specify the product's options.","Especifiqueu les opcions del producte."
 "Alert me when this item is available.","Avisa'm quan l'article estigui disponible."
+"We can't find this customer.","No podem trobar aquest client."
 "Shopping cart management is disabled for this customer.","Gestió de la cistella no disponible per a aquest client."
+"We can't find this store.","No podem trobar aquesta botiga."
 Customers,Clients
 "Shopping Cart",Cistella
 "You do not have access to this.","Accés no permès."
+"Ordered item id is not received.","L'identificador de l'article demanat no s'ha rebut."
 "An error has occurred. See error log for details.","S'ha produït un error. Mireu el registre per veure'n els detalls."
 "You cannot configure a product.","No es pot configrar el producte."
 "You removed the items.","Articles eliminats."
@@ -177,6 +188,7 @@ File,Arxiu
 "The text of the link to the My Account &gt; Order by SKU page","Text de l'enllaç al meu compte &gt; Demanar per pàgina SKU"
 "Load a list of SKUs","Carrega llista d'SKUs"
 "Order by SKU Template","Demanar per plantilla SKU"
+"SKU not found in catalog.","SKU no trobat al catàleg."
 "An error occurred. For details, see the error log.","Hi ha hagut un error. Per obtenir més detalls, consulteu el registre d’errors."
 "The file is corrupt and can't be used.","L'arxiu està malmès i no es pot utilitzar."
 "Please correct the data sent.","Si us plau corregeixi les dades enviades."
