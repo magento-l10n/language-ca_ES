@@ -808,6 +808,11 @@ Security,Seguretat
 "Default Pages","Pàgines per Defecte"
 "Default Web URL","URL Web per Defecte"
 "Default No-route URL","URL Sense-ruta per Defecte"
+"Validate REMOTE_ADDR","Valida REMOTE_ADDR"
+"Validate HTTP_VIA","Valida HTTP_VIA"
+"Validate HTTP_X_FORWARDED_FOR","Valida HTTP_X_FORWARDED_FOR"
+"Validate HTTP_USER_AGENT","Valida HTTP_USER_AGENT"
+"Use SID on Storefront","Utilitzar SID a l'Aparador"
 "Cache Type","Tipus de Memòria Cau"
 Description,Descripció
 Tags,Etiquetes
@@ -828,9 +833,19 @@ Pagination,Paginació
 "If you continue to receive this message, please contact the store owner.","Si continueu rebent aquest missatge, contacti amb el propietari de la botiga."
 "You need more permissions to access this.","Necessites més permisos per accedir aquí."
 "Report Bugs","Informa d'errors"
+"Design Theme","Tema de Disseny"
+"User-Agent Exceptions","Excepcions d'User-Agent"
+"Search String","Cerca Cadena"
+"Page not found.","Pàgina no trobada."
+"Maximum Width","Amplada Màxima"
+"Maximum allowed width for uploaded image.","Amplada màxima permesa per a la imatge carregada."
+"Maximum Height","Alçada Màxima"
 "If no value is specified, the system default is used. The system default may be modified by third-party extensions.","Si no s’especifica cap valor, s’utilitza el valor predeterminat del sistema. El valor per defecte del sistema es pot modificar mitjançant extensions de tercers."
 "Enable Frontend Resize","Activar redimensionat d'interfície"
 "Invalid security or form key. Please refresh the page.","Clau de seguretat o de formulari invàlida. Si us plau, refresqueu la pàgina."
+"Save &amp; Continue","Desa &amp; Continua"
+"Save &amp; Close","Desa &amp; Tanca"
+"Save &amp; New","Desa &amp; Nou"
 "Parameter Value","Valor del paràmetre"
 "System Backup","Còpia de seguretat del sistema"
 "Database and Media Backup","Còpia de seguretat de bases de dades i multimèdia"
@@ -852,8 +867,22 @@ successful,correcte
 "Please correct the password.","Si us plau corregiu la contrasenya."
 "We can't find the backup file.","No trobem l'arxiu de còpies de seguretat."
 "We can't connect to the FTP right now.","No es pot conectar a l'FTP ara mateix."
+"Failed to validate FTP.","Error en la validació de l'FTP."
+"Failed to rollback.","Error en fer la reversió o rollback."
 Database,"Base de dades"
+"Database and Media","Base de dades i Contingut Multimèdia"
 "We can't save the Cron expression.","No es pot guardar l'expressió de Cron."
+"Backup Name","Nom de la Còpia de Seguretat"
+"Maintenance mode","Mode de manteniment"
+Exclude,Excloure
+"User Password","Paraula Clau de l'Usuari"
+"Use FTP Connection","Utilitzar Connexió FTP"
+"FTP credentials","Credencials FTP"
+"FTP Host","Servidor FTP"
+"FTP Login","Usuari FTP"
+"FTP Password","Paraula clau FTP"
+"Magento root directory","Directori arrel de Magento"
+"Create Backup","Crear Còpia de Seguretat"
 Frequency,Freqüència
 "Maintenance Mode","Mode de manteniment"
 Time,Hora
@@ -872,14 +901,29 @@ Active,Actiu
 Inactive,Inactiu
 "Applies To","S'aplica a"
 Visibility,Visibilitat
+Delete,Suprimeix
 Position,Posició
 "You deleted %1 record(s).","Heu eliminat %1 registre(s)."
 "Please enter a name.","Si us plau, introduïu un nom."
 "-- None --","-- Cap --"
 Footer,"Peu de pàgina"
 Header,Capçalera
+"Left Column","Columna Esquerra"
+"Right Column","Columna Dreta"
+"Dynamic Blocks","Blocs Dinàmics"
+"Add Dynamic Block","Afegir Bloc Dinàmic"
+"Save Dynamic Block","Guardar Bloc Dinàmic"
+"Delete Dynamic Block","Esborrar Bloc Dinàmic"
+"New Dynamic Block","Nou Bloc Dinàmic"
+"Are you sure you want to do this?","Esteu segurs que voleu fer això?"
 "Something went wrong while deleting dynamic block data. Please review the action log and try again.","Alguna cosa ha fallat mentre s'eliminaven les dades del bloc dinàmic. Si us plau, reviseu el registre d’accions i torneu-ho a provar."
 "Something went wrong while mass-deleting dynamic blocks. Please review the action log and try again.","Alguna cosa ha fallat mentre s'eliminaven massivament les dades del blocs dinàmics. Si us plau, reviseu el registre d’accions i torneu-ho a provar."
+"Status Label","Etiqueta d'Estat"
+"General Information","Informació General"
+Back,Tornar
+Cancel,Cancel·lar
+"Add Selected","Afegir Seleccionat"
+Remove,Esborrar
 "All Segments","Tots els segments"
 "Customer Segment","Segment del client"
 "Allowed Credit Card Types","Tipus de targeta de crèdit permesos"
@@ -925,7 +969,20 @@ YY,AA
 "Cannot provide a billing address unless also providing a credit card.","No es pot proporcionar una adreça de facturació, tret que també proporcioneu una targeta de crèdit."
 "Public Key","Clau Pública"
 "Private Key","Clau Privada"
+Debug,Depurar
 "Skip Order Review","Saltar la revisió de la comanda"
+Phone,Telèfon
+"CVV is required.","El CVV és obligatori."
+"Expiration date is required.","Cal indicar la data de caducitat."
+"Credit card number is required.","Cal indicar el número de la targeta de crèdit."
+"Company is too long.","El nom de la companyia és massa llarga."
+"First name is too long.","El nom és massa llarg."
+"Last name is too long.","El cognom és massa llarg."
+"Locality is too long.","La localitat és massa llarga."
+"Postal code is required.","El codi postal és obligatori."
+"Region is too long.","La regió és massa llarga."
+"Street address is required.","Cal indicar l'adreça."
+"Street address is too long.","L'adreça és massa llarga."
 "Stored Card","Targeta emmagatzemada"
 "We can't place the order.","No es pot fer la comanda."
 "Incorrect payment method.","Mètode de pagament incorrecte."
@@ -1088,7 +1145,6 @@ State/Province,Província
 "One-page checkout is turned off.","S'ha desactivat la compra en una pàgina."
 "Guest checkout is disabled.","La compra de convidats està desactivada."
 Checkout,Compra
-"Page not found.","Pàgina no trobada."
 "Something went wrong while processing your order. Please try again later.","Alguna cosa ha anat malament mentre es processava la comanda. Intenteu-ho més tard si us plau."
 "%1 doesn't extend \Magento\Checkout\CustomerData\ItemInterface","%1 no pot extendre \Magento\Checkout\CustomerData\ItemInterface"
 "Payment Method","Mètode de pagament"
@@ -1148,7 +1204,6 @@ Customer:,Client:
 "Forgot Your Password?","Heu oblidat la contrasenya?"
 "My billing and shipping address are the same","L'adreça de facturació i d'enviament són la mateixa"
 Update,Actualitzar
-Cancel,Cancel·lar
 "Save in address book","Desar a la llibreta d'adreces"
 "Estimated Total","Total estimat"
 "You can create an account after checkout.","Podeu crear un compte després de confirmar la comanda."
@@ -1718,7 +1773,6 @@ Group,Grup
 "Delete items","Eliminar elements"
 "Subscribe to Newsletter","Subscrit al butlletí"
 "Unsubscribe from Newsletter","Donar-se de baixa del butlletí"
-Phone,Telèfon
 "Customer Since","Client Des"
 "Confirmed email","Correu electrònic confirmat"
 "Account Created in","Compte creat el"
@@ -1768,6 +1822,7 @@ Processing,Processant
 "Log Entry Lifetime, Days","Durada d'entrada de registre, dies"
 Reorder,"Torna a fer la comanda"
 "Catalog Reviews","Ressenyes del Catàleg"
+"Admin My Account","Administrar El Meu Compte"
 "Review Order - %1","Revisar comanda - %1"
 "Go to Review Your Order","Anar a Revisar la vostra comanda"
 "Check Out with Multiple Addresses","Finalitzar compra amb múltiples adreces"
@@ -1982,7 +2037,6 @@ Capture,Capturar
 "Save Status","Guardar Estat"
 "Order Status Information","Dades d'Estat de la Comanda"
 "Status Code","Codi d'Estat"
-"Status Label","Etiqueta d'Estat"
 "Total Paid","Total Pagat"
 "Total Refunded","Total Reemborsament"
 "Total Due","Total Deute"
@@ -2168,6 +2222,7 @@ Account,Compte
 Preview,Previsualització
 "Preview is not available.","La previsualització no està disponible."
 description,descripció
+"Defines whether a link to My Account","Defineix si hi ha un enllaç al Meu Compte"
 "Add All to Cart","Afegir tot a la cistella"
 "You have no items in your wish list.","No tens cap element a la teva llista de desitjos."
 "User Description","Descripció de l'usuari"
