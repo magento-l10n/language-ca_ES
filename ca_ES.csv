@@ -870,6 +870,7 @@ Pagination,Paginació
 "Maximum allowed width for uploaded image.","Amplada màxima permesa per a la imatge carregada."
 "Maximum Height","Alçada Màxima"
 "If no value is specified, the system default is used. The system default may be modified by third-party extensions.","Si no s’especifica cap valor, s’utilitza el valor predeterminat del sistema. El valor per defecte del sistema es pot modificar mitjançant extensions de tercers."
+label,etiqueta
 "Enable Frontend Resize","Activar redimensionat d'interfície"
 "Invalid security or form key. Please refresh the page.","Clau de seguretat o de formulari invàlida. Si us plau, refresqueu la pàgina."
 "Save &amp; Continue","Desa &amp; Continua"
@@ -912,11 +913,14 @@ Exclude,Excloure
 "FTP Password","Paraula clau FTP"
 "Magento root directory","Directori arrel de Magento"
 "Create Backup","Crear Còpia de Seguretat"
+"Backup Type","Tipus de Còpia de Seguretat"
 Frequency,Freqüència
 "Maintenance Mode","Mode de manteniment"
 Time,Hora
+Size(bytes),"Mida (bytes)"
 Type,Tipus
 Download,Descarregar
+"Enable Backup","Habilitar Còpia de Seguretat"
 "Save and Continue Edit","Desa i continua editant"
 "Default Content","Contenido predeterminat"
 "No Default Content","No hi ha contingut predeterminat"
@@ -996,10 +1000,13 @@ YY,AA
 "Refund amount is too large.","L’import de la devolució és massa gran."
 "Settlement amount is too large.","L’import de la liquidació és massa gran."
 "Cannot provide a billing address unless also providing a credit card.","No es pot proporcionar una adreça de facturació, tret que també proporcioneu una targeta de crèdit."
+"Payment Action","Operació de Pagament"
 "Public Key","Clau Pública"
 "Private Key","Clau Privada"
 Debug,Depurar
+"Sort Order",Ordre
 "Skip Order Review","Saltar la revisió de la comanda"
+"Dynamic Descriptors","Descripcions Dinàmiques"
 Phone,Telèfon
 "CVV is required.","El CVV és obligatori."
 "Expiration date is required.","Cal indicar la data de caducitat."
@@ -1012,17 +1019,49 @@ Phone,Telèfon
 "Region is too long.","La regió és massa llarga."
 "Street address is required.","Cal indicar l'adreça."
 "Street address is too long.","L'adreça és massa llarga."
+Select...,Seleccionar...
+"Transaction Type","Tipus de Transacció"
+"Payment Type","Tipus de Pagament"
+"PayPal Payment ID","ID de Pagament PayPal"
+"Order ID","ID de Comanda"
+Amount,Quantitat
+Month,Mes
+Year,Any
 "Stored Card","Targeta emmagatzemada"
+"Credit card successfully deleted","Targeta de crèdit esborrada satisfactòriament"
+"Edit Credit Card","Editar Targeta de Crèdit"
+"My Credit Cards","Les Meves Targetes de Crèdit"
+"New Credit Card","Nova Targeta de Crèdit"
 "We can't place the order.","No es pot fer la comanda."
 "Incorrect payment method.","Mètode de pagament incorrecte."
 "We can't initialize checkout review.","No es pot inicialitzar la revisió del procés de compra."
 "We can't update shipping method.","No es pot actualitzar el mètode d'enviament."
+"Please try again later","Si us plau, torneu-ho a provar més tard"
+Invoice,Factura
+Shipment,Enviament
+"some error","algun error"
+"* Required Fields","* Camps obligatoris"
+"Billing Address","Adreça de facturació"
+Company,Empresa
+Address,Adreça
+State/Province,Estat/Província
+"Zip/Postal Code","Codi Postal"
+"Card Number","Número de la targeta"
 "Capture action","Capturar l'acció"
 "Use Vault","Utilitzar Contenidor"
 "Allow Duplicate Cards","Permetre targetes duplicades"
 "Enable Credit Card auto-detection on Storefront","Permetre l'auto-detecció de targeta de crèdit en la botiga"
 "Your Kount ID","Identificador Kount"
 "Use Cache","Utilitzar memòria cau"
+"Pay with PayPal","Pagar amb PayPal"
+"Paypal account","Compte de PayPal"
+"Europe bank account","Compte bancari Europeu"
+"Credit card","Targeta de crèdit"
+Authorizing,Autoritzant
+Authorized,Autoritzat
+Failed,"Ha fallat"
+Sale,Venda
+Credit,Crèdit
 Delete,Esborrar
 "Price Range","Interval de Preus"
 Together,Junts
@@ -1039,7 +1078,6 @@ Default,"Per defecte"
 Ordered,Demanat
 Shipped,Enviat
 "Customize and Add to Cart","Personalitza i afegeix"
-"* Required Fields","* Camps obligatoris"
 "Your Customization",Personalització
 Availability,Disponibilitat
 "In stock","En estoc"
@@ -1055,7 +1093,6 @@ Message:,Missatge:
 "Row Total","Suma de la fila"
 "Qty Invoiced","Quantitat facturada"
 "Qty Shipped","Quantitat enviada"
-Select...,Seleccionar...
 """option_id"" and ""parent_id"" values should be specified","S'han d'especificar els valors ""option_id"" i ""parent_id"""
 """sku"" value should be specified","S'ha d'especificar el valor ""sku"""
 Always,Sempre
@@ -1088,12 +1125,9 @@ Root,Arrel
 "Add Subcategory","Afegir subcategoria"
 "Add Root Category","Afegir categoria arrel"
 Day,Dia
-Month,Mes
-Year,Any
 [WEBSITE],"[PÀGINA WEB]"
 "WYSIWYG Editor","Editor WYSIWYG"
 "Add Product","Afegir producte"
-label,etiqueta
 "Product Attributes","Atributs de producte"
 "Add New Attribute","Afegir atribut"
 "Save Attribute","Desar atribut"
@@ -1198,7 +1232,6 @@ Template,Plantilla
 Conditions,Condicions
 "Invalid method: %1","Mètode no vàlid: %1"
 State/Province,Província
-"Zip/Postal Code","Codi Postal"
 "My Cart (1 item)","Cistella (1 producte)"
 "My Cart (%1 items)","Cistella (%1 productes)"
 "My Cart",Cistella
@@ -1596,7 +1629,6 @@ Unlock,Desbloqueja
 """%1"" is a required value.","""%1"" és un valor obligatori."
 "Per Website","Per lloc web"
 "We can't share customer accounts globally when the accounts share identical email addresses on more than one website.","No podem compartir comptes de client globalment quan els comptes comparteixen adreces de correu electrònic idèntiques en més d’un lloc web."
-"Billing Address","Adreça de facturació"
 "ALL GROUPS","TOTS ELS GRUPS"
 "No such entity with %fieldName = %fieldValue, %field2Name = %field2Value","Cap entitat amb %fieldName = %fieldValue, %field2Name = %field2Value"
 "File can not be saved to the destination folder.","El fitxer no es pot desar a la carpeta de destinació."
@@ -1657,7 +1689,6 @@ Exception,Excepció
 "Exception message","Missatge d’excepció"
 "Validator Exception","Excepció de validador"
 "Localized Exception","Excepció localitzada"
-"some error","algun error"
 "NOT LOGGED IN","NO AUTENTICAT"
 "Please enter the state/province.","Si us plau, introduïu Estat/Província."
 "region is a required field.","regió és un camp obligatori."
@@ -1692,9 +1723,7 @@ or,o
 "Additional Address Entries","Entrades addicionals d’adreces"
 "Delete Address","Esborrar adreça"
 "You have no other address entries in your address book.","No teniu cap altra adreça a la vostra llibreta d'adreces."
-Address,Adreça
 "Street Address %1","Carrer de l'adreça %1"
-State/Province,Estat/Província
 "Please select a region, state or province.","Si us plau, seleccioneu una regió, estat o província."
 "It's a default billing address.","És una adreça de facturació predeterminada."
 "Use as my default billing address","Feu-la servir com a adreça de facturació predeterminada"
@@ -1724,7 +1753,6 @@ State/Province,Estat/Província
 "Set a New Password","Estableix una nova contrasenya"
 "You have signed out and will go to our homepage in 5 seconds.","Heu tancat la sessió i anireu a la pàgina principal en 5 segons."
 "Creating an account has many benefits: check out faster, keep more than one address, track orders and more.","La creació d’un compte té molts avantatges: fer una ullada més ràpida, mantenir més d’una adreça, fer el seguiment de les comandes i molt més."
-Company,Empresa
 "Tax/VAT number","Número d'Identificació Fiscal"
 "Welcome to %store_name","Us donem la benvinguda a %store_name"
 "Welcome to %store_name.","Us donem la benvinguda a %store_name."
@@ -2120,7 +2148,6 @@ unhold,alliberar
 "Accept Payment","Acceptar Pagament"
 "Deny Payment","Denegar Pagament"
 "Invoice and Ship","Facturar i Enviar"
-Invoice,Factura
 Ship,Enviament
 " [deleted]"," [esborrat]"
 "Order History","Historial de comandes"
