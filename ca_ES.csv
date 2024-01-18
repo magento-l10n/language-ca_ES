@@ -311,12 +311,18 @@ Other,Altres
 "The data is invalid. Enter the data as a string or data that can be converted into a string and try again.","Les dades no són vàlides. Introduïu les dades com a cadena de text o dades que es poden convertir en una cadena de text i proveu-ho de nou."
 "The data is invalid. Enter the data as a string and try again.","Les dades no són vàlides. Introduïu les dades com a cadena de text i torneu-ho a provar."
 "The data is invalid. Use a valid cipher method and try again.","Les dades no són vàlides. Feu servir un mètode de xifrat vàlid i torneu-ho a provar."
+"The ""%1"" source doesn't exist.","L'origen de ""%1"" no existeix."
 "Retry Synchronization","Reintentar sincronització"
 Done,Fet
 Retry,Reintentar
 "'Action Details - #' .","'Detalls - #' ."
 "%1 item(s) have been scheduled for update.""","%1 producte(s) s'ha programat per actualitzar."""
 "Bulk Actions Log","Registre d'accions massives"
+"Bulk uuid %bulkUuid not exist","El conjunt d'UUIDs %bulkUuid no existeix"
+"Topic %1","Tema %1"
+"Something went wrong while processing the request.","Alguna cosa ha anat malament mentre es processava la sol·licitud."
+"Error processing %key element of input data","Error processant l'element %key de les dades d'entrada"
+"Sorry, something went wrong during product prices update. Please see log for details.","Ho sentim, alguna cosa ha anat malament en el procés d'actualització dels preus. Vegeu els detalls al registre."
 "%1 item(s) are currently being updated.","%1 producte(s) estant sent actualitzats."
 "Task ""%1"": ","Tasca ""%1"": "
 "%1 item(s) have been scheduled for update.","%1 producte(s) programat(s) per actualitzar."
@@ -333,6 +339,7 @@ Dismiss,Descartar
 "Action Log","Registre d'activitat"
 Report,Informe
 "Bulk Actions","Accions massives"
+"Action Logs","Registre d'Activitats"
 "Days Saved in Log","Dies desats al registre"
 "Description of Operation","Descripció d'operació"
 Summary,Resum
@@ -559,11 +566,13 @@ To,Fins
 "Invalid export type supplied for grid export block","Tipus d'exportació no vàlid subministrat per al bloc d'exportació de la graella"
 Export,Exportar
 "Please correct the column format and try again.","Si us plau, corregiu el format de la columna i torneu-ho a provar."
+"Please select items.","Si us plau, selecciona elements."
 Submit,Enviar
 "Unknown block type","Tipus de bloc desconegut"
 "Please correct the tab configuration and try again. Tab Id should be not empty","Si us plau, corregiu la configuració de la pestanya i proveu un altre cop. L'Identificador de la pestanya no pot ser buit"
 "Please correct the tab configuration and try again.","Si us plau, corregiu el format de la pestanya i torneu-ho a provar."
 "You have logged out.","Heu tancat la sessió."
+"Specified cache type(s) don't exist: %1","El tipus de memoria(es) cau especificat(s) no existeix: %1"
 "The image cache was cleaned.","La memòria cau d'imatges es va netejar."
 "An error occurred while clearing the image cache.","S'ha produït un error en esborrar la memòria cau de la imatge."
 "The JavaScript/CSS cache has been cleaned.","S'ha netejat la memòria cau JavaScript/CSS."
@@ -631,12 +640,17 @@ System,Sistema
 YTD,"Any fins a la data"
 2YTD,"2 anys fins a la data"
 "Authentication storage is incorrect.","L'emmagatzematge de l'autenticació no és correcte."
+"You did not sign in correctly or your account is temporarily disabled.","No has iniciat sessió correctament o el teu compte està temporalment desactivat."
+"Authentication error occurred.","S'ha produït un error d'autenticació."
+"Admin session lifetime must be less than or equal to 31536000 seconds (one year)","La durada de la sessió d’administració ha de ser inferior o igual a 31536000 segons (un any)"
+"Admin session lifetime must be greater than or equal to 60 seconds","La durada de la sessió d’administració ha de ser superior o igual a 60 segons"
 Order,Comanda
 "Order #%1","Comanda #%1"
 "Sorry, you need permissions to view this content.","Ho sentim, necessiteu permisos per visualitzar aquest contingut."
 "Next steps","Propers passos"
 "If you think this is an error, try signing out and signing in again.","Si creieu que es tracta d’un error, proveu de tancar la sessió i tornar a iniciar la sessió."
 "Contact a system administrator or store owner to gain permissions.","Poseu-vos en contacte amb un administrador del sistema o el propietari de la botiga per obtenir permisos."
+"Return to ","Tornar a "
 "previous page","pàgina anterior"
 "Welcome, please sign in","Benvinguts, inicieu la sessió"
 Username,"Nom d'usuari"
@@ -672,6 +686,7 @@ Minute,Minut
 "To use this website you must first enable JavaScript in your browser.","Per utilitzar aquest lloc web, primer heu d’habilitar JavaScript al navegador."
 "This is only a demo store. You can browse and place orders, but nothing will be processed.","Això només és una botiga de demostració. Podeu navegar i fer comandes, però no es processarà res."
 "Report an Issue","Informeu d'un problema"
+"Store View:","Vista de Botiga:"
 "Stores Configuration","Configuració de Botigues"
 "Please confirm scope switching. All data that hasn't been saved will be lost.","Si us plau, confirmeu el canvi d'abast. Tota la informació no gravada es perdrà."
 "Additional Cache Management","Gestió Addicional de Memòria Cau"
@@ -704,7 +719,9 @@ selected,seleccionat
 "The information in this tab has been changed.","La informació d'aquesta pestanya ha canviat."
 Loading...,Carregant...
 "We could not detect a size.","No hem pogut detectar una mida."
+"We don't recognize or support this file extension type.","No reconeixem o donem suport a aquest tipus d'extensió de fitxer."
 "Warning message","Missatge d'advertència"
+"This operation can take a long time","Aquesta operació pot durar molt de temps"
 "Allow everything","Permet-ho tot"
 "Global Search","Cerca global"
 Marketing,Màrqueting
@@ -713,6 +730,7 @@ Marketing,Màrqueting
 Content,Contingut
 Design,Disseny
 Schedule,Planificació
+"Content translation","Traducció de contingut"
 Settings,Configuració
 Attributes,Atributs
 "Other Settings","Altres configuracions"
@@ -720,6 +738,14 @@ Attributes,Atributs
 "Connect Manager","Gestor de Magento Connect"
 "Package Extensions","Extensions de paquet"
 Tools,Eines
+"Clean Cache Actions","Netejar Memòria Cau d'Accions"
+"Cache Types Management","Gestió de Tipus de Memòria Cau"
+"Toggle Cache Type","Commuta el Tipus de Memòria Cau"
+"Refresh Cache Type","Actualitzar Tipus de Memòria Cau"
+"Catalog Images Cache","Memòria Cau d’Imatges del Catàleg"
+"Flush Js/Css","Neteja Js/Css"
+"Flush Static Files","Neteja Fitxers Estàtics"
+"Web Setup Wizard","Assistent de Configuració Web"
 Currency,Moneda
 Communications,Comunicacions
 Services,Serveis
@@ -798,8 +824,11 @@ Security,Seguretat
 "Add Secret Key to URLs","Afegiu clau secreta a les URL"
 "Login is Case Sensitive","L’inici de sessió és sensible a majúscules i minúscules"
 "Admin Session Lifetime (seconds)","Durada de la sessió Admin (segons)"
+"Enable Charts","Habilitar Gràfiques"
+"Url Options","Opcions d`URL"
 "Base URLs","URLs Base"
 "Base URL","URL Base"
+"Base Link URL","Enllaç URL Base"
 "Base URLs (Secure)","URLs Base (Segures)"
 "Secure Base URL","URL Base Segura"
 "Secure Base Link URL","Enllaç URL Base Segura"
@@ -1111,7 +1140,6 @@ Websites,"Llocs Web"
 "Set Ascending Direction","Fixar Direcció Ascendent"
 "Set Descending Direction","Fixar Direcció Descendent"
 "More Information","Més Informació"
-"We don't recognize or support this file extension type.","No reconeixem o donem suport a aquest tipus d'extensió de fitxer."
 Adding...,Afegint...
 Added,Afegit
 "Lifetime of products in Recently Viewed Widget","Durada dels productes al Widget ""Vist recentment"""
@@ -1500,7 +1528,6 @@ Unlock,Desbloqueja
 "If you are a registered VAT customer, please <a href=""%1"">click here</a> to enter your shipping address for proper VAT calculation.","Si sou un client amb IVA registrat, feu clic a <a href=""%1"">aquí</a> per introduir la vostra adreça d’enviament per calcular l’IVA correctament."
 "If you are a registered VAT customer, please <a href=""%1"">click here</a> to enter your billing address for proper VAT calculation.","Si sou un client amb IVA registrat, si us plau, feu clic <a href=""%1"">aquí</a> per introduir la vostra adreça d’enviament per calcular l’IVA correctament."
 "You saved the account information.","Heu desat la informació del compte."
-"You did not sign in correctly or your account is temporarily disabled.","No has iniciat sessió correctament o el teu compte està temporalment desactivat."
 "Password confirmation doesn't match entered password.","La confirmació de la contrasenya no coincideix amb la contrasenya introduïda."
 "The password doesn't match this account.","La paraula clau no coincideix amb aquest compte."
 "Please correct the email address.","Si us plau, corregiu l’adreça de correu electrònic."
@@ -1906,6 +1933,7 @@ Subscribe,Subscriure
 Unsubscribe,"Anul·lar la subscripció"
 Subscribed,Subscrit
 Unsubscribed,"Subscripció anul·lada"
+"Newsletter Subscriptions","Subscripcions al butlletí"
 "A confirmation request has been sent.","La sol·licitud de confirmació s'ha enviat."
 "We cannot retrieve the payment method model object.","No es pot recuperar el model del mètode de pagament."
 "We cannot retrieve the payment info model object.","No es pot recuperar el model d'informació de pagament."
