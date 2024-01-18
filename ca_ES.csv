@@ -994,8 +994,18 @@ Phone,Telèfon
 "Enable Credit Card auto-detection on Storefront","Permetre l'auto-detecció de targeta de crèdit en la botiga"
 "Your Kount ID","Identificador Kount"
 "Use Cache","Utilitzar memòria cau"
+Delete,Esborrar
+"Price Range","Interval de Preus"
+Together,Junts
+Separately,"Per separat"
 "We can't add this item to your shopping cart right now.","No es pot afegir aquest article a la cistella ara mateix."
+N/A,N/D
+Percent,Percentatge
+"Add Option","Afegir Opció"
+"New Option","Nova Opció"
 "Default Title","Títol per defecte"
+Required,Obligatori
+Quantity:,Quantitat:
 Default,"Per defecte"
 Ordered,Demanat
 Shipped,Enviat
@@ -1008,8 +1018,15 @@ Availability,Disponibilitat
 Availability:,Disponibilitat:
 "Customize %1","Personalitza %1"
 "No options of this product are available.","Opcions no disponibles."
+From:,"Des de:"
+To:,A:
+Message:,Missatge:
+"Product Name","Nom del Producte"
+"Discount Amount","Import de Descompte"
+"Row Total","Suma de la fila"
 "Qty Invoiced","Quantitat facturada"
 "Qty Shipped","Quantitat enviada"
+Select...,Seleccionar...
 """option_id"" and ""parent_id"" values should be specified","S'han d'especificar els valors ""option_id"" i ""parent_id"""
 """sku"" value should be specified","S'ha d'especificar el valor ""sku"""
 Always,Sempre
@@ -1051,14 +1068,41 @@ label,etiqueta
 "Product Attributes","Atributs de producte"
 "Add New Attribute","Afegir atribut"
 "Save Attribute","Desar atribut"
+"Save and Continue Edit","Desar i Continuar Editant"
+"Delete Attribute","Esborrar Atribut"
+"New Product Attribute","Nou Atribut de Producte"
+"Attribute Code","Codi d'Atribut"
 "This is used internally. Make sure you don't use spaces or more than %1 symbols.","Això s'utilitza internament. Assegureu-vos que no utilitzeu espais ni més de %1 símbols."
 "Default Value","Valor per defecte"
+"Unique Value","Valor Únic"
+Gallery,Galeria
+"System Properties","Propietats del Sistema"
+"Data Type for Saving in Database","Tipus de Dades per a l'Emmagatzematge a la Base de Dades"
+Static,Estàtic
+Integer,Enter
+Searchable,Cercable
+"Add New","Afegir Nou"
+Empty,Buit
 "Close Window","Tanca la finestra"
+"New Product","Nou Producte"
+"Save & Edit","Desar i Editar"
+"Save & New","Desar i Nou"
+"Save & Duplicate","Desar i Duplicar"
+"Save & Close","Desar i Tancar"
+Change,Canvi
+"Advanced Inventory","Inventari Avançat"
+Websites,"Llocs Web"
+"Products Information","Informació dels Productes"
+"Create Category","Crear Categoria"
+"Category Name","Nom de la Categoria"
+"Parent Category","Categoria Superior"
 "Subscribe Date","Data de subscripció"
 "Subscribe to RSS Feed","Subscriviu-vos al canal RSS"
 "%1 items","%1 articles"
 "Shop By","Compra per"
 "Shopping Options","Opcions de compra"
+"Compare Products","Comparar Productes"
+"You have no items to compare.","No tens articles per comparar."
 "Remove This Item","Treure aquest element"
 "Clear All","Neteja tot"
 "We can't find products matching the selection.","No podem trobar productes que coincideixin amb la selecció."
@@ -1606,7 +1650,6 @@ Visitor,Visitant
 "Default Billing Address","Adreça de facturació predeterminada"
 "Sales Statistics","Estadístiques de vendes"
 "Average Sale","Venda mitjana"
-Change,Canvi
 "Manage Addresses","Gestionar adreces"
 "Default Shipping Address","Adreça d'enviament predeterminada"
 "Contact Information","Informació de contacte"
@@ -1798,6 +1841,7 @@ Addresses,Adreces
 subscribed,subscrit
 "not subscribed","no subscrit"
 "Order Status","Estat de la comanda"
+"Wish List","Llista de Desitjos"
 "Base Currency","Moneda Base"
 "Default Display Currency","Moneda de visualització predeterminada"
 "My Downloadable Products","Els meus productes descarregables"
@@ -1823,6 +1867,8 @@ Processing,Processant
 Reorder,"Torna a fer la comanda"
 "Catalog Reviews","Ressenyes del Catàleg"
 "Admin My Account","Administrar El Meu Compte"
+"My Wish Lists","La Meva Llista de Desitjos"
+"My Wish Lists Link","Enllaç a la Meva Llista de Desitjos"
 "Review Order - %1","Revisar comanda - %1"
 "Go to Review Your Order","Anar a Revisar la vostra comanda"
 "Check Out with Multiple Addresses","Finalitzar compra amb múltiples adreces"
@@ -2007,7 +2053,6 @@ Select,Seleccionar
 "Recently Viewed Products","Productes vistos recentment"
 "Last Ordered Items","Últims articles demanats"
 "Recently Viewed","Vist Recentment"
-"Wish List","Llista de Desitjos"
 "Please select a store","Si us plau, seleccioneu una botiga"
 "Order Totals","Totals de la comanda"
 "Shipping Incl. Tax (%1)","L'enviament inclou l'IVA (%1)"
@@ -2061,7 +2106,6 @@ Specified,Especificat
 "Discount (%1)","Descompte (%1)"
 "Grand Total","Suma total"
 Fetch,Obtenir
-N/A,N/D
 Key,Clau
 Value,Valor
 "Back to My Orders","Tornar a les meves comandes"
@@ -2223,8 +2267,10 @@ Preview,Previsualització
 "Preview is not available.","La previsualització no està disponible."
 description,descripció
 "Defines whether a link to My Account","Defineix si hi ha un enllaç al Meu Compte"
+"My Wish List","La Meva Llista de Desitjos"
 "Add All to Cart","Afegir tot a la cistella"
 "You have no items in your wish list.","No tens cap element a la teva llista de desitjos."
+"My Wish List Link","Enllaç a la Meva Llista de Desitjos"
 "User Description","Descripció de l'usuari"
 "You must login or register to add items to your wishlist.","Heu d'iniciar sessió o registrar-vos per afegir elements a la vostra llista de desitjos."
 "Account Information","Informació del Compte"
