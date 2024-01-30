@@ -2,7 +2,7 @@ All,Tot
 None,Cap
 "Allowed Scopes","Àmbits permesos"
 "You need more permissions to delete this item(s): %1.","Calen més permisos per a esborrar aquest(s) element(s): %1."
-"You need more permissions to apply some of the rule updates.","Cal més permisos per aplicar algunes de les actualitzacions de les regles."
+"You need more permissions to apply some of the rule updates.","Calen més permisos per aplicar algunes de les actualitzacions de les regles."
 "Please assign this entity to a store view.","Si us plau, assigni aquesta entitat a una vista de botiga."
 "You can create orders only in an active store.","Només podeu crear comandes en una botiga activa."
 "Please assign this item to a store view.","Si us plau, assigni aquest element a una vista de botiga."
@@ -282,11 +282,22 @@ TestMessage,"Missatge de prova"
 Analytics,Anàlisi
 Configuration,Configuració
 "Business Intelligence","Intel·ligència de negoci"
+"This service provides a dynamic suite of reports with rich insights about your business.
+                Your reports can be accessed securely on a personalized dashboard outside of the admin panel by clicking on the
+                ""Go to Advanced Reporting"" link. </br> For more information, see our <a href=""https://magento.com/legal/terms/cloud-terms"">
+                terms and conditions</a>.","Aquest servei proporciona un conjunt dinàmic d’informes amb una àmplia informació sobre el vostre negoci.
+                Podeu accedir als vostres informes de manera segura en un tauler personalitzat fora del tauler d'administració fent clic a l'enllaç ""Informe avançat"". </br> Per obtenir més informació, consulteu la nostra <a href=""https://magento.com/legal/terms/cloud-terms"">
+                termes i condicions </a>."
 "Advanced Reporting Service","Servei d'informes avançats"
 "Time of day to send data","Hora del dia per enviar dades"
 Industry,Indústria
 "In order to personalize your Advanced Reporting experience, please select your industry.","Per personalitzar l'experiència en els informes avançats, si un plau, seleccioni el tipus de negoci."
 "<strong>Get more insights from Magento Business Intelligence</strong>","<strong>Obtingui més idees amb Magneto Business Intelligence</strong>"
+"Magento Business Intelligence provides you with a simple and clear path to
+                    becoming more data driven.</br> Learn more about <a target=""_blank""
+                    href=""https://dashboard.rjmetrics.com/v2/magento/signup/"">Magento BI Essentials and BI Pro</a> tiers.","Magento Business Intelligence us proporciona un camí senzill i clar
+                    per esdevenir més ""data-driven"". </br> Més informació sobre <a target = ""_ blank""
+                    href = ""https://dashboard.rjmetrics.com/v2/magento/signup/""> Nivells de Magento BI Essentials i BI Pro </a>."
 "Auto Parts","Peces d'automòbil"
 "Baby/Children’s Apparel, Gear and Toys","Indumentària i joguines per a nadons/nens"
 "Beauty and Cosmetics","Bellesa i Cosmètics"
@@ -311,6 +322,7 @@ Other,Altres
 "The data is invalid. Enter the data as a string or data that can be converted into a string and try again.","Les dades no són vàlides. Introduïu les dades com a cadena de text o dades que es poden convertir en una cadena de text i proveu-ho de nou."
 "The data is invalid. Enter the data as a string and try again.","Les dades no són vàlides. Introduïu les dades com a cadena de text i torneu-ho a provar."
 "The data is invalid. Use a valid cipher method and try again.","Les dades no són vàlides. Feu servir un mètode de xifrat vàlid i torneu-ho a provar."
+"Enter the encryption key and try again.","Introduïu la clau de xifrat i torneu-ho a provar."
 "The ""%1"" source doesn't exist.","L'origen de ""%1"" no existeix."
 "Retry Synchronization","Reintentar sincronització"
 Done,Fet
@@ -352,7 +364,9 @@ Status,Estat
 "Dismiss All Completed Tasks","Descartar les tasques completades"
 "Action Details - #","Detalls - #"
 "Number of Records Affected","Nombre de registres afectats"
+"We can't find the role for the user you wanted.","No podem trobar el rol per l'usuari que volies."
 "Something went wrong while compiling a list of allowed resources. You can find out more in the exceptions log.","Alguna cosa ha anat malament mentre es compilava una llista de recursos habilitats. Més informació al registre d'excepcions."
+"The role wasn't found for the user. Verify the role and try again.","No s'ha trobat el rol per l'usuari. Verifiqueu-lo i torneu-ho a provar."
 "You created the order.","Heu creat la comanda."
 "Order saving error: %1","Error desant la comanda: %1"
 "Please choose a payment method.","Si us plau, seleccioneu un mètode de pagament."
@@ -760,8 +774,12 @@ Advanced,Avançat
 "Sales Representative","Representant de vendes"
 "Customer Support","Atenció al client"
 Developer,Desenvolupador
+"Enabled Template Path Hints for Storefront","Suggeriments de ruta de plantilla activats per l'Storefront"
+"Enabled Template Path Hints for Admin","Suggeriments de ruta de plantilla activats per a l'administrador"
+"Add Block Names to Hints","Afegeix noms de bloc als suggeriments"
 "Template Settings","Configuració de la plantilla"
 "Allow Symlinks","Permetre Symlinks"
+"Warning! Enabling this feature is not recommended on production environments because it represents a potential security risk.","Avís! No es recomana l'activació d'aquesta funció en entorns de producció perquè representa un risc potencial per a la seguretat."
 "Minify Html","Minimitzar l’Html"
 "Minification is not applied in developer mode.","La minimització no s'aplica en mode de desenvolupador."
 "Translate Inline","Tradueix en línia"
@@ -824,8 +842,14 @@ Security,Seguretat
 "Add Secret Key to URLs","Afegiu clau secreta a les URL"
 "Login is Case Sensitive","L’inici de sessió és sensible a majúscules i minúscules"
 "Admin Session Lifetime (seconds)","Durada de la sessió Admin (segons)"
+"Please enter at least 60 and at most 31536000 (one year).","Introduïu com a mínim 60 i com a màxim 31536000 (un any)."
 "Enable Charts","Habilitar Gràfiques"
 "Url Options","Opcions d`URL"
+"Add Store Code to Urls","Afegeix el codi de botiga a les Url"
+"<strong style=""color:red"">Warning!</strong> When using Store Code in URLs, in some cases system may not work properly if URLs without Store Codes are specified in the third party services (e.g. PayPal etc.).","<strong style=""color: red"">Advertència!</strong> Quan s'utilitza el codi de botiga a la URL, en alguns casos el sistema pot no funcionar correctament si s'especifiquen URL sense codis de botiga als serveis de tercers (per exemple, PayPal, etc.)."
+"Auto-redirect to Base URL","Redirecció automàtica a l'URL base"
+"Search Engine Optimization","Optimització del Motor de Cerca"
+"Use Web Server Rewrites","Utilitza les reescriptures del servidor web"
 "Base URLs","URLs Base"
 "Base URL","URL Base"
 "Base Link URL","Enllaç URL Base"
