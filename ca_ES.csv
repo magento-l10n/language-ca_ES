@@ -1523,6 +1523,7 @@ Company:,Empresa:
 "Phone Number","Número de Telèfon"
 "Company Administrator","Administrador de l'Empresa"
 "Job Title","Títol Del Treball"
+"Create a Company Account","Crear un Compte d'Empresa"
 "Expand All","Desplegar Tot"
 "Collapse All","Replegar Tot"
 "Add User","Afegir Usuari"
@@ -1533,9 +1534,11 @@ Company:,Empresa:
 Contacts,Contactes
 "Role Information","Informació de Rol"
 "Role Permissions","Permisos de Rol"
+"Create an Account","Crear un Compte"
 "When you sign in to your account, you will be able to:","Quan inicieu sessió al vostre compte, podreu:"
 "User with this email already exists in the system. Enter a different email address to continue. If you want to use your current account as an administrator account, please contact the seller.","L’usuari amb aquest correu electrònic ja existeix al sistema. Per continuar, introduïu una adreça de correu electrònic diferent. Si voleu utilitzar el vostre compte actual com a compte d’administrador, poseu-vos en contacte amb el venedor."
 Gender,Gènere
+"Create New Company Account","Crear Nou Compte d'Empresa"
 "Order # %1","Comanda # %1"
 Date,Data
 "Design Theme","Tema de disseny"
@@ -2320,6 +2323,7 @@ Review,Revisar
 "Review Submission","Enviament de ressenya"
 "Rewarded Reviews Submission Quantity Limit","Límit de quantitat d'enviament de Ressenyes Recompensades"
 "Entering no value or a value greater than the expiration lifetime disables the warning notification.","Si no introduïu cap valor o un valor superior a la durada de la caducitat, es desactiva la notificació d'avís."
+"Create an account on our site now and earn %1.","Crea ara un compte en la nostra botiga i guanya %1."
 "Submit a review now and earn %1 after the review is approved.","Envieu una ressenya ara i guanyeu %1 un cop sigui aprovada."
 "You can reward up to %1 new reviews(s).","Podeu recompensar fins a 1% ressenyes noves."
 "Ordered: ","Demanat: "
@@ -2567,6 +2571,7 @@ Account,Compte
 "Forgot your password?","Heu oblidat la constrasenya?"
 "We have received a request to change the following information associated with your account at %store_name: %changes.","Hem rebut una sol·licitud per canviar la informació següent associada amb el vostre compte a %store_name: %changes."
 "Password Lifetime (days)","Durada de la contrasenya (dies)"
+"A new admin account was created for %first_name, %last_name using %email.","S'ha creat un compte d'administració per a %first_name, %last_name fent servir %email."
 "Stored Payment Methods","Mètodes de pagament guardats"
 Preview,Previsualització
 "Preview is not available.","La previsualització no està disponible."
