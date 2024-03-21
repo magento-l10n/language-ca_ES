@@ -1274,6 +1274,7 @@ Overview,"Visió General"
 "Category ID","ID de Categoria"
 Start,Inici
 End,Fi
+"The most you may purchase is %1.","El màxim que podeu comprar és %1."
 "Allow Adding to Cart","Permet afegir a la cistella"
 "We can't delete this rule right now. Please review the log and try again.","No podem eliminar aquesta regla ara mateix. Si us plau, reviseu el registre i torneu-ho a provar."
 "Something went wrong while saving the rule data. Please review the error log.","Alguna cosa ha funcionat malament desant les dades de la regla. Si us plau, reviseu el registre d’errors."
@@ -2567,6 +2568,7 @@ welcome,benvingut
 "Welcome Text","Text de Benvinguda"
 Menu,Menú
 Account,Compte
+Attention,Atenció
 "Enter your email address.  You will receive an email with a link to reset your password.","Introduïu l'adreça de correu electrònic. Rebreu un correu electrònic amb un enllaç per restablir la contrasenya."
 "Forgot your password?","Heu oblidat la constrasenya?"
 "We have received a request to change the following information associated with your account at %store_name: %changes.","Hem rebut una sol·licitud per canviar la informació següent associada amb el vostre compte a %store_name: %changes."
