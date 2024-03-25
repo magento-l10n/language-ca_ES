@@ -1270,6 +1270,7 @@ Overview,"Visió General"
 "Set Root Category for Store","Establir la Categoria Arrel a la Botiga"
 "Custom Design","Disseny Personalitzat"
 "The product's required option(s) weren't entered. Make sure the options are entered and try again.","No s'han introduït totes les opcions obligatòries del producte. Assegureu-vos d'haver-les introduït i torneu-ho a provar."
+Closed,Tancat
 "Preview Sale","Vista prèvia de venda"
 "Category ID","ID de Categoria"
 Start,Inici
@@ -2262,6 +2263,7 @@ Reviews,Ressenyes
 "Product Reviews Report","Informe de ressenyes de producte"
 "Product Reviews","Ressenyes de producte"
 "You refreshed lifetime statistics.","Heu refrescat la durada de les estadístiques."
+Refunds,Reemborsaments
 "For accurate reporting, be sure to refresh lifetime statistics whenever you change the time zone.","Per obtenir un informe exacte, assegureu-vos d’actualitzar les estadístiques acumulades cada vegada que canvieu la zona horària."
 "Last Review","Darrera Revisió"
 "Refresh Lifetime Statistics","Refrescar estadístiques acumulades"
