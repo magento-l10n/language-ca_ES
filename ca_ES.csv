@@ -1464,6 +1464,7 @@ Close,Tancar
 "Items in Cart","Productes a la cistella"
 "Something went wrong while saving the page. Please refresh the page and try again.","Alguna cosa ha anat malament desant la pàgina. Si us plau, actualitzeu la pàgina i torneu-ho a provar."
 "You added %1 to your <a href=""%2"">shopping cart</a>.","Afegit %1 a la <a href=""%2"">cistella</a>."
+"Please select at least one product to add to cart","Trieu almenys un producte per afegir a la cistella, si us plau"
 "The shipping method is missing. Select the shipping method and try again.","Falta el mètode d'enviament. Seleccioneu el mètode d'enviament i torneu-ho a provar."
 "Show Cross-sell Items in the Shopping Cart","Mostrar ventes creuades a la cistella de la compra"
 "Terms and Conditions","Condicions d'ús"
