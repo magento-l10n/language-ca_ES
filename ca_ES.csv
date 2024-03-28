@@ -1094,6 +1094,7 @@ Fixed,Fix
 Delete,Esborrar
 "Use Default Value","Utilitzar Valor per Defecte"
 "Price Range","Interval de Preus"
+"As Low as","A partir de"
 Together,Junts
 Separately,"Per separat"
 "We can't add this item to your shopping cart right now.","No es pot afegir aquest article a la cistella ara mateix."
@@ -1111,6 +1112,7 @@ Ordered,Demanat
 Invoiced,Facturat
 Shipped,Enviat
 Canceled,Cancel·lat
+"As low as","A partir de"
 To,A
 "Customize and Add to Cart","Personalitza i afegeix"
 "Your Customization",Personalització
@@ -1557,6 +1559,7 @@ Date,Data
 "Yes (301 Moved Permanently)","Sí (301 Mogut Permanentment)"
 "Choose an Option...","Tria una opció..."
 "New Product Review","Revisió de nou producte"
+"As low as: ","A partir de: "
 "Thanks for contacting us with your comments and questions. We'll respond to you very soon.","Gràcies per contactar amb nosaltres amb els seus comentaris i preguntes. Li respondrem molt aviat."
 "An error occurred while processing your form. Please try again later.","S'ha produït un error en processar el formulari. Si us plau, intenteu-ho més tard."
 "Name is missing","Falta el nom"
