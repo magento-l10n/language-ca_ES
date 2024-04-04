@@ -497,11 +497,11 @@ Shipping,Enviament
 "Last Name",Cognoms
 Email,"Correu electrònic"
 "User Email","Correu electrònic de l'usuari"
-"New Password","Nova Contrasenya"
-"Password Confirmation","Confirmació de la contrasenya"
+"New Password","Nova Paraula Clau"
+"Password Confirmation","Confirmació de la paraula clau"
 "Interface Locale","Interfície de configuració regional"
 "Current User Identity Verification","Verificació d’Identitat d’Usuari Actual"
-"Your Password","La teva contrasenya"
+"Your Password","La teva paraula clau"
 "Save Cache Settings","Desar la configuració de la caché"
 "Catalog Rewrites","Ressenyes del Catàleg"
 Refresh,Refrescar
@@ -669,8 +669,8 @@ Order,Comanda
 "Welcome, please sign in","Benvinguts, inicieu la sessió"
 Username,"Nom d'usuari"
 "user name","nom d'usuari"
-Password,Contrasenya
-password,contrasenya
+Password,"Paraula Clau"
+password,"paraula clau"
 "Sign in","Iniciar sessió"
 "Select Range:","Seleccioneu Interval:"
 "No Data Found","No s'han trobat dades"
@@ -825,7 +825,7 @@ City,Ciutat
 "Set Return-Path","Establir el camí de retorn"
 "Return-Path Email","Correu electrònico de camí de retorn"
 "Admin User Emails","Adreces de correu d’usuari administrador"
-"Forgot Password Email Template","Plantilla de Contrasenya de correu electrònic oblidada"
+"Forgot Password Email Template","Plantilla de Paraula Clau de correu electrònic oblidada"
 "Email template chosen based on theme fallback when ""Default"" option is selected.","Plantilla de correu electrònic escollida en funció del recurs de recuperació del tema quan s'ha seleccionat l'opció ""Predeterminat""."
 "Forgot and Reset Email Sender","Remitent de Heu oblidat i restablit el correu electrònic"
 "Startup Page","Pàgina d'inici"
@@ -918,7 +918,7 @@ failed,"ha fallat"
 successful,correcte
 "You deleted the selected backup(s).","Has esborrat la/les còpia/còpies seleccionada/es."
 "Can't load snapshot archive","No es pot carregar la vista de l'arxiu"
-"Please correct the password.","Si us plau corregiu la contrasenya."
+"Please correct the password.","Si us plau corregiu la paraula clau."
 "We can't find the backup file.","No trobem l'arxiu de còpies de seguretat."
 "We can't connect to the FTP right now.","No es pot conectar a l'FTP ara mateix."
 "Failed to validate FTP.","Error en la validació de l'FTP."
@@ -1402,6 +1402,7 @@ Customer:,Client:
 "Date & Time:","Data i hora:"
 "Sign In","Iniciar sessió"
 "Email Address","Adreça electrònica"
+Password,Contrasenya
 "Forgot Your Password?","Heu oblidat la contrasenya?"
 "My billing and shipping address are the same","L'adreça de facturació i d'enviament són la mateixa"
 Update,Actualitzar
@@ -1892,6 +1893,7 @@ or,o
 "Change Email","Canvia el correu electrònic"
 "Change Email and Password","Canvieu l'adreça electrònica i contrasenya"
 "Current Password","Contrasenya actual"
+"New Password","Nova Contrasenya"
 "Password Strength","Solidesa de la contrasenya"
 "No Password","Sense contrasenya"
 "Confirm New Password","Confirmeu la nova contrasenya"
@@ -2177,6 +2179,7 @@ Pending,Pendent
 Short,Breu
 Processing,Processant
 "Shipping Method","Mètode d'enviament"
+"Your Password","La teva contrasenya"
 "Customer Token Lifetime (hours)","Durada del Token del client (hores)"
 "Admin Token Lifetime (hours)","Durada del Token d'Admin (hores)"
 "Invite your friends by entering their email addresses","Inviteu els vostres amics escrivint les seves adreces de correu electrònic"
@@ -2604,6 +2607,7 @@ welcome,benvingut
 Menu,Menú
 Account,Compte
 Attention,Atenció
+"Password Confirmation","Confirmació de la contrasenya"
 "Enter your email address.  You will receive an email with a link to reset your password.","Introduïu l'adreça de correu electrònic. Rebreu un correu electrònic amb un enllaç per restablir la contrasenya."
 "Forgot your password?","Heu oblidat la constrasenya?"
 "We have received a request to change the following information associated with your account at %store_name: %changes.","Hem rebut una sol·licitud per canviar la informació següent associada amb el vostre compte a %store_name: %changes."
