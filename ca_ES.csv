@@ -185,7 +185,7 @@ Item,Article
 "What's this?","Què és això?"
 "Incl. Tax","Impostos inclosos"
 "Excl. Tax","Impostos exclosos"
-"Edit item parameters","Edita el paràmetres de l'article"
+"Edit item parameters","Edita els paràmetres de l'article"
 Edit,Edita
 "Remove item","Elimina l'article"
 "Products Requiring Attention","Productes que necessiten atenció"
@@ -1228,9 +1228,11 @@ message,missatge
 "We can't find products matching the selection.","No podem trobar productes que coincideixin amb la selecció."
 "Items %1-%2 of %3","Articles %1-%2 de %3"
 "%1 Items","%1 Articles"
+Show,Mostrar
 "Set Ascending Direction","Fixar Direcció Ascendent"
 "Set Descending Direction","Fixar Direcció Descendent"
 "More Information","Més Informació"
+OK,D'acord
 Adding...,Afegint...
 Added,Afegit
 "Lifetime of products in Recently Viewed Widget","Durada dels productes al Widget ""Vist recentment"""
@@ -1271,6 +1273,7 @@ Overview,"Visió General"
 "New Root Category","Nova Categoria Arrel"
 "Set Root Category for Store","Establir la Categoria Arrel a la Botiga"
 "Custom Design","Disseny Personalitzat"
+Ok,D'acord
 "The product's required option(s) weren't entered. Make sure the options are entered and try again.","No s'han introduït totes les opcions obligatòries del producte. Assegureu-vos d'haver-les introduït i torneu-ho a provar."
 Closed,Tancat
 "Preview Sale","Vista prèvia de venda"
@@ -1402,7 +1405,6 @@ Customer:,Client:
 "Date & Time:","Data i hora:"
 "Sign In","Iniciar sessió"
 "Email Address","Adreça electrònica"
-Password,Contrasenya
 "Forgot Your Password?","Heu oblidat la contrasenya?"
 "My billing and shipping address are the same","L'adreça de facturació i d'enviament són la mateixa"
 Update,Actualitzar
@@ -2276,6 +2278,7 @@ Refunds,Reemborsaments
 "Refresh Lifetime Statistics","Refrescar estadístiques acumulades"
 "Are you sure you want to refresh lifetime statistics right now? This operation may slow down your customers' shopping experience.","Esteu segur que voleu actualitzar les estadístiques acumulades ara mateix? Aquesta operació pot retardar l'experiència de la compra dels vostres clients."
 "Options were updated. Please review available configurations.","Opcions actualitzades. Si us plau, reviseu les configuracions disponibles."
+"Edit item","Edita l'article"
 "Name & Description","Nom i descripció"
 "Save Review","Desar ressenya"
 "New Review","Nova ressenya"
@@ -2578,6 +2581,7 @@ Website,"Lloc web"
 "Print Shipment","Imprimeix l'enviament"
 "Tracking Number:","Número de seguiment:"
 "There is no tracking available for this shipment.","No hi ha cap seguiment disponible per a aquest enviament."
+Origin,Origen
 "In Review","En revisió"
 "Signifyd automatically reviews your orders for fraud, telling you in seconds which orders to ship, and which to reject.
                     We back our approvals with 100% chargeback protection, reimbursing you the full order amount plus fees should you ever receive a fraudulent chargeback.
@@ -2608,6 +2612,7 @@ Menu,Menú
 Account,Compte
 Attention,Atenció
 "Password Confirmation","Confirmació de la contrasenya"
+password,"paraula Clau"
 "Enter your email address.  You will receive an email with a link to reset your password.","Introduïu l'adreça de correu electrònic. Rebreu un correu electrònic amb un enllaç per restablir la contrasenya."
 "Forgot your password?","Heu oblidat la constrasenya?"
 "We have received a request to change the following information associated with your account at %store_name: %changes.","Hem rebut una sol·licitud per canviar la informació següent associada amb el vostre compte a %store_name: %changes."
@@ -2654,7 +2659,6 @@ description,descripció
 "Customer Service","Servei al client"
 "Backup options","Opcions de backup"
 Warning,Atenció
-Ok,D'acord
 "Insert Widget...","Inserir Giny..."
 "Recent items","Elements recents"
 "Show all...","Mostra-ho tot..."
